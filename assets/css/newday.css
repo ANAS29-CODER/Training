@@ -400,6 +400,7 @@ a:hover {
 /********** Begain OfBegain Of Main *************/
 .main {
     max-width: calc(100%);
+    position: relative; /*     come back*/
 }
 
 /******************Demo**************/
@@ -2516,18 +2517,19 @@ h5 .prev-price {
 }
 
 .special-recipe .social-tools div span:not(:last-of-type) {
-    margin-left:17px;
+    margin-left: 17px;
 }
 
 .special-recipe .social-tools div span img {
-    margin-left:7px;
+    margin-left: 7px;
 }
 
-.special-recipe .recipe-photo>img{
+.special-recipe .recipe-photo>img {
     width: 100%;
 }
-@media (min-width:1400px){
-    .special-recipe .recipe-photo>img{
+
+@media (min-width:1400px) {
+    .special-recipe .recipe-photo>img {
         width: 100%;
         height: 700px;
     }
@@ -2535,11 +2537,208 @@ h5 .prev-price {
 
 
 
+.rr {
+    margin-top: 40px;
+}
 
 
-.rr .row{
-    margin: 10% 0%;
+.rr .row {
+    margin: 2% 0%;
+    align-content: space-around;
+    justify-content: space-between;
+
 
 }
 
+.rr .row>div {
+    border: 1px solid #E7E7E7;
+    background-color: #fbfbfb;
+    border-radius: 5px;
+
+
+}
+
+.rr .row>div:first-of-type {
+
+    max-width: 44%;
+
+
+}
+
+.rr .row>div:last-of-type {
+    max-width: 786px !important;
+
+
+
+}
+
+
+.rr .des,
+.rr .ingredients {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 24px;
+}
+
+.intro-des {
+    color: #5C5B67;
+    font-size: 16px;
+}
+
+.name-rec,
+.des-rec {
+    color: #434242;
+    font-size: 16px;
+    margin-bottom: 8px;
+
+}
+
+.rr .row>div:first-of-type>p {
+    max-width: 550px;
+}
+
+.rr .recipe-desc-info {
+    margin-top: 41px;
+}
+
+
+.rr .recipe-video {
+    background-color: #DB242C;
+    color: #FFF;
+    font-size: 18px;
+    max-width: 609px;
+    text-align: center;
+    margin: 1% auto;
+    max-height: 48px;
+
+
+    width: 100%;
+
+    border: none;
+    outline: none;
+    border-radius: 10px;
+
+}
+
+
+.rr ul {
+    margin-top: 4%;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    color: #5C5B67;
+    font-size: 16px;
+    max-width: 347px;
+}
+
+.way{
+    margin-bottom: 44px;
+}
+
+.way h5
+{
+    color: #434242;
+    font-weight:bold;
+    margin-bottom: 24px;
+}
+.way >p {
+    color: #434242;
+    font-size: 18px;
+    border-bottom: 1px solid #E7E7E7;
+}
+
+.way p span {
+    padding: 6px 11px;
+    border: 1px solid red;
+    border-radius: 50%;
+    margin-left: 4px;
+}
+
+.way .sales {
+    margin-top: 50px;
+}
+.way .sales a:first-of-type img{
+    float: left;
+}
+
+
 /*********END OF special-recipe***********/
+
+
+
+
+
+/********** add pro to cart ***********/
+
+.add-pro-to-cart
+{
+   width: 1250px;
+    position: absolute;
+    top: 32%;
+    left: 20%;
+    z-index: 100;
+    max-height: 748px;
+    border: 1px solid #e7e7e7;
+}
+
+.add-pro-to-cart .row{
+    width: 100%;
+    margin: 21px 0px;
+
+}
+.add-pro-to-cart .row>div{
+
+    margin: 21px 0px;
+    padding: 0%;
+}
+.add-pro-to-cart .row .first{
+    max-width: 535px;
+    margin-right: 36px;
+  
+}
+.add-pro-to-cart .products .pro-img {
+    width: max-content !important;
+}
+.add-pro-to-cart .products .pro-img img {
+  
+    height: 100%;
+    width: 100%;
+}
+
+.add-pro-to-cart .products .product-details {
+    text-align: initial;
+    margin-right: 15px;
+    
+}
+
+
+.products .product-details>p,
+.add-pro-to-cart  .product-details>div {
+    max-width: 525px;
+}
+
+.add-pro-to-cart .products .product-quantity {
+    display: flex;
+    align-content: space-around;
+    justify-content: space-between;
+    margin-bottom: 13px;
+    align-items: flex-end;
+}
+
+.add-pro-to-cart .products .cartadd .addcart {
+    margin-top: 12px !important;
+}
+.add-pro-to-cart .products .cartadd .addcart:first-of-type
+{
+    background-color:#DB242C;
+}
+/*
+.add-pro-to-cart .products .col-md-4:last-of-type {
+    width: 100% !important;
+    padding: 0%;
+}
+*/
+
+
+/********** add pro to cart ***********/

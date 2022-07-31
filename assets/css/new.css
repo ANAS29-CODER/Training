@@ -400,6 +400,7 @@ a:hover {
 /********** Begain OfBegain Of Main *************/
 .main {
     max-width: calc(100%);
+    position: relative; /*     come back*/
 }
 
 /******************Demo**************/
@@ -2663,3 +2664,24 @@ h5 .prev-price {
 
 
 /*********END OF special-recipe***********/
+
+
+
+
+
+/********** add pro to cart ***********/
+
+.add-pro-to-cart
+{
+    max-width: 1250px;
+    position: absolute;
+    top: 32%;
+    left: 20%;
+    z-index: 100;
+    max-height: 748px;
+}
+
+
+
+
+/********** add pro to cart ***********/
