@@ -1004,7 +1004,9 @@ h5 .prev-price {
 /********** End Of Container *************/
 
 
-
+[dir="rtl"] .slick-prev::before {
+    content: "→";
+}
 
 
 

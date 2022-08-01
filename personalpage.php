@@ -11,7 +11,7 @@ include('layouts/Header.php');
 
 
 <div class="personal">
-    <div class="container">
+    <div class="container-personal">
         <div class="row">
             <div class="col-3">
 

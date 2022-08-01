@@ -251,7 +251,7 @@ $('.close-pro').on("click", function(){
 });
 
 
-
+$('.close-ul').css('color','blue');
 
 
 
