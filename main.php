@@ -32,11 +32,11 @@ include('layouts/Header.php');
 </div>
 
 
-<div class="container">
+<div class="container-product">
 
 
 
-    <div class=" products sales">
+    <div class=" products sales bav">
         <a href="#"> <img class="img-fluid" src="Images/عرض المزيد.png" alt="عرض المزيد"> </a>
         <h4 class="titleSlide right">عروض يومية</h4>
 
@@ -51,14 +51,17 @@ include('layouts/Header.php');
                         <div class="heads">
                             <p class="discount" style="float: right;">خصم <span class="percent"></span> %</p>
 
-                            <p style="float: left"><a href="#" class="like"> <i class="fa fa-heart"></i></a></p>
+                            <p style="float: left">
+                                 <i class="fa fa-heart"></i>
+                               
+                            </p>
 
                         </div>
 
                     </div>
 
                     <div class="details">
-                        <h5> <span class="prev-price">50.00 <img src="Images/sh.png" alt=""></span> <span class="new-price">44.00<img src="Images/sh.png" alt=""></span></h5>
+                        <h5> <span class="prev-price">50.000 <img src="Images/sh.png" alt=""></span> <span class="new-price">44.00<img src="Images/sh.png" alt=""></span></h5>
 
                         <p> مشروب شعير بفاريا سادة 500مل bavaria original </p>
 
@@ -70,7 +73,7 @@ include('layouts/Header.php');
                                 <div class="plus-minus">
 
                                     <button class="form-control click   minus"> <span class="sub-number">-</span> </button>
-                                    <button class="form-control click   number "><span class="daynamic-number" id="daynamic-number">1</span></button>
+                                    <button class="form-control click   number">ss<span class="daynamic-number" id="daynamic-number">1</span></button>
                                     <button class="form-control click   plus"><span class="add-number">+</span></button>
                                 </div>
                                 <div class="sure-add">
@@ -100,7 +103,8 @@ include('layouts/Header.php');
                         <div class="heads">
                             <p class="discount" style="float: right;">خصم <span class="percent"></span> %</p>
 
-                            <p style="float: left"><a href="#" class="like"> <i class="fa fa-heart"></i></a></p>
+                            <p style="float: left">
+                            <i class="fa fa-heart"></i></p>
 
                         </div>
 
@@ -151,7 +155,9 @@ include('layouts/Header.php');
                         <div class="heads">
                             <p class="discount" style="float: right;">خصم <span class="percent"></span> %</p>
 
-                            <p style="float: left"><a href="#" class="like"> <i class="fa fa-heart"></i></a></p>
+                            <p style="float: left">
+                             <i class="fa fa-heart"></i>
+                        </p>
 
                         </div>
 
@@ -169,9 +175,9 @@ include('layouts/Header.php');
                             <div class="input-group ">
                                 <div class="plus-minus">
 
-                                    <button class="form-control click   minus"> <span>-</span> </button>
-                                    <button class="form-control click   number"><span>1</span></button>
-                                    <button class="form-control click   plus"><span>+</span></button>
+                                    <button class="form-control click minus"> <span>-</span> </button>
+                                    <button class="form-control click number"><span>1</span></button>
+                                    <button class="form-control click plus"><span>+</span></button>
                                 </div>
                                 <div class="sure-add">
                                     <button class="form-control addcart">
@@ -200,7 +206,7 @@ include('layouts/Header.php');
                         <div class="heads">
                             <p class="discount" style="float: right;">خصم <span class="percent"></span> %</p>
 
-                            <p style="float: left"><a href="#" class="like"> <i class="fa fa-heart"></i></a></p>
+                            <p style="float: left"> <i class="fa fa-heart"></i></p>
 
                         </div>
 
@@ -249,7 +255,7 @@ include('layouts/Header.php');
                         <div class="heads">
                             <p class="discount" style="float: right;">خصم <span class="percent"></span> %</p>
 
-                            <p style="float: left"><a href="#" class="like"> <i class="fa fa-heart"></i></a></p>
+                            <p style="float: left"> <i class="fa fa-heart"></i></p>
 
                         </div>
 
@@ -297,56 +303,7 @@ include('layouts/Header.php');
                         <div class="heads">
                             <p class="discount" style="float: right;">خصم <span class="percent"></span> %</p>
 
-                            <p style="float: left"><a href="#" class="like"> <i class="fa fa-heart"></i></a></p>
-
-                        </div>
-
-                    </div>
-
-                    <div class="details">
-                        <h5> <span class="prev-price">50.00 <img src="Images/sh.png" alt=""></span> <span class="new-price">44.00<img src="Images/sh.png" alt=""></span></h5>
-
-                        <p> مشروب شعير بفاريا سادة 500مل bavaria original </p>
-
-                        <div class="quantity" style="margin-bottom: 20px;">
-
-
-
-                            <div class="input-group ">
-                                <div class="plus-minus">
-
-                                    <button class="form-control click   minus"> <span>-</span> </button>
-                                    <button class="form-control click   number"><span>1</span></button>
-                                    <button class="form-control click   plus"><span>+</span></button>
-                                </div>
-                                <div class="sure-add">
-                                    <button class="form-control addcart">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        اضافة للسلة </button>
-                                </div>
-
-
-
-
-                            </div>
-
-
-
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-
-            <div>
-                <div class="prod">
-                    <div class=" images ">
-                        <img src="Images/bvaria.png" alt="">
-                        <div class="heads">
-                            <p class="discount" style="float: right;">خصم <span class="percent"></span> %</p>
-
-                            <p style="float: left"><a href="#" class="like"> <i class="fa fa-heart"></i></a></p>
+                            <p style="float: left"> <i class="fa fa-heart"></i></p>
 
                         </div>
 
@@ -395,7 +352,7 @@ include('layouts/Header.php');
                         <div class="heads">
                             <p class="discount" style="float: right;">خصم <span class="percent"></span> %</p>
 
-                            <p style="float: left"><a href="#" class="like"> <i class="fa fa-heart"></i></a></p>
+                            <p style="float: left"> <i class="fa fa-heart"></i></p>
 
                         </div>
 
@@ -444,7 +401,7 @@ include('layouts/Header.php');
                         <div class="heads">
                             <p class="discount" style="float: right;">خصم <span class="percent"></span> %</p>
 
-                            <p style="float: left"><a href="#" class="like"> <i class="fa fa-heart"></i></a></p>
+                            <p style="float: left"> <i class="fa fa-heart"></i></p>
 
                         </div>
 
@@ -493,7 +450,7 @@ include('layouts/Header.php');
                         <div class="heads">
                             <p class="discount" style="float: right;">خصم <span class="percent"></span> %</p>
 
-                            <p style="float: left"><a href="#" class="like"> <i class="fa fa-heart"></i></a></p>
+                            <p style="float: left"><i class="fa fa-heart"></i></p>
 
                         </div>
 
@@ -542,7 +499,7 @@ include('layouts/Header.php');
                         <div class="heads">
                             <p class="discount" style="float: right;">خصم <span class="percent"></span> %</p>
 
-                            <p style="float: left"><a href="#" class="like"> <i class="fa fa-heart"></i></a></p>
+                            <p style="float: left"><i class="fa fa-heart"></i></p>
 
                         </div>
 
@@ -591,7 +548,56 @@ include('layouts/Header.php');
                         <div class="heads">
                             <p class="discount" style="float: right;">خصم <span class="percent"></span> %</p>
 
-                            <p style="float: left"><a href="#" class="like"> <i class="fa fa-heart"></i></a></p>
+                            <p style="float: left"><i class="fa fa-heart"></i></p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="details">
+                        <h5> <span class="prev-price">50.00 <img src="Images/sh.png" alt=""></span> <span class="new-price">44.00<img src="Images/sh.png" alt=""></span></h5>
+
+                        <p> مشروب شعير بفاريا سادة 500مل bavaria original </p>
+
+                        <div class="quantity" style="margin-bottom: 20px;">
+
+
+
+                            <div class="input-group ">
+                                <div class="plus-minus">
+
+                                    <button class="form-control click   minus"> <span>-</span> </button>
+                                    <button class="form-control click   number"><span>1</span></button>
+                                    <button class="form-control click   plus"><span>+</span></button>
+                                </div>
+                                <div class="sure-add">
+                                    <button class="form-control addcart">
+                                        <i class="fa fa-shopping-basket"></i>
+                                        اضافة للسلة </button>
+                                </div>
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div>
+                <div class="prod">
+                    <div class=" images ">
+                        <img src="Images/bvaria.png" alt="">
+                        <div class="heads">
+                            <p class="discount" style="float: right;">خصم <span class="percent"></span> %</p>
+
+                            <p style="float: left"><i class="fa fa-heart"></i></p>
 
                         </div>
 
@@ -659,7 +665,7 @@ include('layouts/Header.php');
                         <div class="heads">
 
 
-                            <p style="float: left"><a href="#" class="like"> <i class="fa fa-heart"></i></a></p>
+                            <p style="float: left"><i class="fa fa-heart"></i></p>
 
                         </div>
 
@@ -709,7 +715,7 @@ include('layouts/Header.php');
                         <div class="heads">
 
 
-                            <p style="float: left"><a href="#" class="like"> <i class="fa fa-heart"></i></a></p>
+                            <p style="float: left"><i class="fa fa-heart"></i></p>
 
                         </div>
 
@@ -760,7 +766,7 @@ include('layouts/Header.php');
                         <div class="heads">
 
 
-                            <p style="float: left"><a href="#" class="like"> <i class="fa fa-heart"></i></a></p>
+                            <p style="float: left"><i class="fa fa-heart"></i></p>
 
                         </div>
 
@@ -811,7 +817,7 @@ include('layouts/Header.php');
                         <div class="heads">
 
 
-                            <p style="float: left"><a href="#" class="like"> <i class="fa fa-heart"></i></a></p>
+                            <p style="float: left"><i class="fa fa-heart"></i></p>
 
                         </div>
 
@@ -862,7 +868,7 @@ include('layouts/Header.php');
                         <div class="heads">
 
 
-                            <p style="float: left"><a href="#" class="like"> <i class="fa fa-heart"></i></a></p>
+                            <p style="float: left"><i class="fa fa-heart"></i></p>
 
                         </div>
 
@@ -913,7 +919,7 @@ include('layouts/Header.php');
                         <div class="heads">
 
 
-                            <p style="float: left"><a href="#" class="like"> <i class="fa fa-heart"></i></a></p>
+                            <p style="float: left"><i class="fa fa-heart"></i></p>
 
                         </div>
 
@@ -1085,6 +1091,108 @@ include('layouts/Header.php');
 
 
 </div>
+<div class="opacity-all">
+    
+</div>
+
+<div class="add-pro-to-cart">
+    <button type="button" class=" close-pro">
+
+        <span aria-hidden="true">x</span>
+
+    </button>
+    <div class="products">
+
+        <div class="row">
+            <div class=" col-sm-6  first">
+                <div class="pro-img">
+                    <img src="Images/products/kIKu3yxsrrOf7AZrKUl6hg9dDyt9WMIeytJ7cIEr.png" alt="">
+                </div>
+                <div class="semi-product">
+                    <img src="Images/products/small.png" alt="">
+                    <img src="Images/products/small.png" alt="">
+                    <img src="Images/products/small.png" alt="">
+                    <img src="Images/products/small.png" alt="">
+
+                </div>
+            </div>
+
+
+            <div class=" col-sm-6  product-details">
+                <p>مشروب شعير بفاريا سادة 500 مل <span>Bavaria Orig .. </span></p>
+
+
+
+
+                <div class="saler all">
+                    <p>مراسلة البائع</p>
+                </div>
+                <hr>
+
+
+
+                <div class="prices all">
+                    <div class="price">
+
+                        <p> السعر : <span class="before-sale">225 <img src="Images/products/₪.png" alt=""></span></p>
+
+                        <p> السعر بعد الخصم : <span class="after-sale">215 <img src="Images/products/₪red.png" alt=""></span></p>
+
+                    </div>
+                </div>
+                <hr>
+
+                <div class="product-quantity">
+                    <div class="word">
+                        <p>الكمية :</p>
+                    </div>
+
+
+                    <div class="input-group ">
+
+                        <button class="form-control click   minus"> <span>-</span> </button>
+                        <button class="form-control click   number"><span>1</span></button>
+                        <button class="form-control click   plus"><span>+</span></button>
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+                <hr>
+
+
+                <div class="total-product-price">
+                    <p>السعر الكلي :<span>215 <img src="Images/products/₪red.png" alt=""></span></p>
+                </div>
+
+
+
+                <div class="cartadd">
+                    <button class="form-control addcart" style="font-size: 18px;">
+                        <i class="fa fa-shopping-basket" style="margin-left: 10px;"></i>
+                        اضافة الى للسلة </button>
+                    <button class="form-control addcart" style="font-size: 18px;">
+                        <i class="fa fa-shopping-basket" style="margin-left: 10px;"></i>
+                        اشتري الأن </button>
+                </div>
+
+                <div class="links">
+                    <p>مشاركة :</p>
+                    <div class="icons">
+
+                        <a href="#"><img src="Images/you.png" alt=""></a>
+                        <a href="#"><img src="Images/products/Group 29.png" alt=""></a>
+                        <a href="#"><img src="Images/twitter.png" alt=""></a>
+                        <a href="#"><img src="Images/face.png" alt=""></a>
+                        <a href="#"><img src="Images/tik.png" alt=""></a>
+
+                    </div>
+                </div>
 
 
 
@@ -1094,10 +1202,30 @@ include('layouts/Header.php');
 
 
 
-    <?php
-
-    include('layouts/Footer.php');
+            </div>
 
 
 
-    ?>
+
+        </div>
+
+
+
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+<?php
+
+include('layouts/Footer.php');
+
+
+
+?>

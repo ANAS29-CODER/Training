@@ -5,7 +5,7 @@
     position: relative;
 
 
-    font-family: Noto Kufi Arabic;
+    font-family: 'Noto Kufi Arabic';
 
 
 
@@ -19,15 +19,14 @@ header {
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
-    border-bottom: 1px solid #F7F7F7 !important;
-    min-height: 158px;
+
     margin-top: 0%;
     padding-top: 0%;
 
 }
 
 .nav-item .nav-link {
-    transition: border-bottom .5s steps(3);
+    transition: border-bottom .1s;
 }
 
 .navbar-nav .active>.nav-link {
@@ -68,11 +67,14 @@ hr {
 }
 
 .topf {
-    height: 100px;
+    max-height: 100%;
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
+
+    padding: 10px 0px;
+
 }
 
 .topdesc {
@@ -146,7 +148,21 @@ a:hover {
 
 .tops {
     padding-right: 51px;
-    height: 100px;
+    max-height: 100%;
+
+    padding: 10px 0px;
+
+}
+
+.tops form {
+    padding-top: 0%;
+    padding-right: 23px;
+}
+
+@media (max-width:1250px) {
+    .tops form {
+        margin: 10px;
+    }
 }
 
 .tops form .form-control {
@@ -161,7 +177,7 @@ a:hover {
 
 .topf img {
 
-    max-width: 171px;
+    width: 66%;
     text-align: center;
     height: 60px;
 }
@@ -400,7 +416,11 @@ a:hover {
 /********** Begain OfBegain Of Main *************/
 .main {
     max-width: calc(100%);
-    position: relative; /*     come back*/
+    /*     come back*/
+}
+
+.container-product {
+    margin: 70px 12%;
 }
 
 /******************Demo**************/
@@ -490,9 +510,9 @@ a:hover {
 
     max-height: 419px;
     min-height: 1px;
-    margin-right: 7.5px;
     width: auto;
 }
+
 
 @media (max-width:991px) {
 
@@ -665,7 +685,7 @@ a:hover {
     padding: 0px 4px;
 
     max-height: 419px;
-    max-width: 260px;
+    max-width: 97%;
     transition: border .3s;
 
 }
@@ -675,14 +695,12 @@ a:hover {
         padding: 0px 8px !important;
     }
 
-    .prod {
-        max-width: 217px;
-    }
+
 }
 
 .prod:hover {
-    border: blue 1px solid;
-    transition: border .5s;
+    border: #DB242C 1px solid;
+    transition: border .8s;
 }
 
 .prod .images {
@@ -693,9 +711,7 @@ a:hover {
     justify-content: center;
 }
 
-.fruits {
-    margin: 0px 12px;
-}
+
 
 .prod .images img {
 
@@ -817,37 +833,13 @@ h5 .prev-price {
     padding: 0px 10px;
 }
 
-@media (max-width:992px) {
-
-    .prod .quantity .input-group {
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .plus-minus {
-        justify-content: center;
-        width: 200px;
-        display: flex;
-    }
-
-    .sure-add {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-top: 8px;
-    }
-
-    .addcart {
-        max-width: 184px;
-    }
-
-    .number {
-        max-width: 115px;
-    }
+.logos {
+    height: 184px;
+    width: 100%;
 }
 
 
-@media (max-width:1400px) {}
+
 
 .like {
     color: black;
@@ -856,10 +848,8 @@ h5 .prev-price {
 
 .logos {
     height: 184px;
-    width: 184px;
-
+    width: 100%;
     border-radius: 50%;
-    /* text-align: center; */
     display: grid;
     justify-content: center;
     align-items: center;
@@ -890,6 +880,45 @@ h5 .prev-price {
     justify-content: space-between;
 
 }
+
+@media (max-width:1199px){
+    .items {
+        max-width: 186px;
+        max-height: 230px;
+        margin-top: 15px;
+        margin-right: 41px;
+    }
+}
+
+@media (max-width:992px) {
+
+    .prod .quantity .input-group {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .plus-minus {
+        justify-content: center;
+        width: 200px;
+        display: flex;
+    }
+
+    .sure-add {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 8px;
+    }
+
+    .addcart {
+        max-width: 184px;
+    }
+
+    .number {
+        max-width: 115px;
+    }
+}
+
 
 @media (max-width:767px) {
     .groups .row {
@@ -993,7 +1022,52 @@ h5 .prev-price {
     width: 100%;
     background-color: #2A2A2A;
     color: white;
+
 }
+
+.container-margin {
+
+    margin: 0% 10%;
+    padding-top: 65px;
+}
+
+@media (max-width:1200px) {
+    .container-margin {
+        margin: 0% auto;
+        padding-top: 65px;
+        max-width: 94%;
+    }
+}
+
+
+
+@media (max-width:992px) {
+    .container-margin {
+        margin: 0% 12%;
+    }
+
+    .footer .col-sm-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .footer .row div p {
+        margin-bottom: 7px !important;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
 
 .footer .row {
     margin: 0%;
@@ -1007,9 +1081,7 @@ h5 .prev-price {
     padding: 0px 10px;
 }
 
-.footer .row .last {
-    text-align: -webkit-left;
-}
+
 
 @media (max-width:768px) {
     .footer .row .last {
@@ -1024,7 +1096,8 @@ h5 .prev-price {
 .footer .row div p {
 
     line-height: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 17px;
+    width: max-content;
 
 
 }
@@ -1047,7 +1120,7 @@ h5 .prev-price {
 
     display: flex;
     flex-direction: row;
-    max-width: 289px;
+    max-width: 286px;
     max-height: 48px;
     padding: 2px;
     background: white;
@@ -1087,7 +1160,7 @@ h5 .prev-price {
 
 .footer .info h5 {
     color: #DB242C;
-    margin-bottom: 39px;
+    margin-bottom: 33px;
     padding-top: 10px;
 }
 
@@ -1118,6 +1191,33 @@ h5 .prev-price {
 .poli a {
     color: white;
     margin-left: 12px;
+    font-size: 12px;
+}
+
+
+
+@media (max-width:565px) {
+
+
+    .footer .row div p {
+        line-height: 25px;
+        font-size: 12px;
+
+    }
+
+    .footer .info h5 {
+        margin-bottom: 15px;
+        font-size: 1.099rem;
+    }
+
+    .creator p {
+        font-size: 13px;
+        font-weight: bolder;
+    }
+
+
+
+
 }
 
 
@@ -1338,6 +1438,14 @@ h5 .prev-price {
     font-size: 12px;
 }
 
+@media (min-width:1200px) and (max-width:1400px) {
+    .bav .sales .slick-next {
+        right: auto;
+        left: 30px !important;
+    }
+
+}
+
 .personal .internal .image {
     width: 205px;
     height: 205px;
@@ -1541,6 +1649,7 @@ h5 .prev-price {
 
 .callus {
     text-align: initial;
+    margin: 0% 12%;
 }
 
 
@@ -1591,7 +1700,7 @@ h5 .prev-price {
     height: 24px;
 }
 
-.callus .social .numbers .number {
+.callus .social .numbers .number-call {
     margin-right: 14px;
     line-height: 10px;
     font-size: 16px;
@@ -1599,7 +1708,7 @@ h5 .prev-price {
 
 }
 
-.callus .number .name {
+.callus .number-call .name {
     font-size: 12px;
     color: #D5D5D5;
 }
@@ -1609,7 +1718,7 @@ h5 .prev-price {
     display: flex;
     justify-content: center;
     font-size: 16px;
-    width: 707px;
+    max-width: 707px;
     margin: 0% auto;
 
     margin-top: 50px;
@@ -1628,6 +1737,13 @@ h5 .prev-price {
 
 .callus #address .numbers:last-of-type {
     margin-right: 78px;
+}
+
+@media (max-width:865px) {
+    #address .number-call p:last-of-type {
+        line-height: 16px;
+    }
+
 }
 
 /*********END OF Callus***********/
@@ -1962,12 +2078,17 @@ h5 .prev-price {
 
 
 
-
+.login {
+    margin: 72px 12%;
+    margin-top: 72px !important;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 0px 7px 0px #b5abab;
+}
 
 .login .row {
     height: 100%;
 
-    border: 1px solid #EEEEEE;
+    margin: 0%;
 
 }
 
@@ -1978,7 +2099,7 @@ h5 .prev-price {
 
 .login .row>div {
     padding: 0%;
-    margin: 38px 0px;
+    margin: 33px 0px;
     max-height: 636px;
 
 
@@ -2012,11 +2133,6 @@ h5 .prev-price {
     text-align: initial;
 }
 
-/*
-.login .logo>div{
-    text-align: center;
-}
-*/
 
 .login .retitle {
     text-align: start;
@@ -2026,8 +2142,8 @@ h5 .prev-price {
 }
 
 .login .retitle img {
-    height: 70px;
-    width: 200px;
+    max-height: 70px;
+    width: 100%;
 }
 
 .login .title {
@@ -2058,7 +2174,7 @@ h5 .prev-price {
 }
 
 .login .btn {
-    width: 259px;
+    width: 40%;
     height: 59px;
     background-color: #DB242C;
     color: white;
@@ -2069,14 +2185,23 @@ h5 .prev-price {
 }
 
 @media (max-width: 1200px) {
-
     .login .btn {
-        max-width: 164px;
 
-
+        max-height: 38px;
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 390px) {
 
@@ -2148,6 +2273,114 @@ h5 .prev-price {
     color: #DB242C;
 }
 
+
+@media (max-width: 992px) {
+
+    .login .logo {
+        padding: 0px 10px !important;
+    }
+
+    .login .prof {
+        margin: 8px 0px 0px 0px;
+        font-size: 18px;
+    }
+
+
+    .login .form-control {
+        max-height: 39px !important;
+        margin-bottom: 8px;
+    }
+
+    .login .passw img {
+        max-width: 20px;
+        max-height: 14px;
+        top: 25%;
+    }
+
+    .login .joinim {
+        margin-top: 12px;
+    }
+
+
+
+    .login .joinim img:not(:first-of-type) {
+        margin-right: 5px;
+    }
+
+    .joinim img {
+        max-width: 28px;
+    }
+
+    .login .join p {
+        margin-top: 15px !important;
+    }
+
+}
+
+
+
+@media (max-width: 700px) {
+
+    .login .retitle {
+
+        max-height: 85px;
+    }
+
+    .login .retitle img {
+        max-height: 48px;
+        max-width: 80%;
+        margin-top: 3px;
+    }
+
+    .login .title {
+
+        font-size: 17px;
+    }
+
+
+
+    .login .prof {
+        margin: 4px 0px 0px 0px;
+        font-size: 17px;
+    }
+
+
+    .login .form-control {
+        height: 32px !important;
+        margin-bottom: 6px;
+        font-size: 12px;
+    }
+
+    .login .join p {
+        margin-top: 10px !important;
+        font-size: 13px;
+    }
+
+    .forget-pass {
+        font-size: 9px !important;
+    }
+
+
+    .login .btn {
+        max-height: 31px;
+        font-size: 14px;
+    }
+
+    .login .join hr {
+
+        margin-right: 0%;
+        max-width: 55%;
+    }
+
+}
+
+@media (max-width: 575px) {
+
+    .login .row>div {
+        padding: 0%;
+        margin: 0%;
+    }
+}
 
 /*********END OF login***********/
 
@@ -2632,17 +2865,17 @@ h5 .prev-price {
     max-width: 347px;
 }
 
-.way{
+.way {
     margin-bottom: 44px;
 }
 
-.way h5
-{
+.way h5 {
     color: #434242;
-    font-weight:bold;
+    font-weight: bold;
     margin-bottom: 24px;
 }
-.way >p {
+
+.way>p {
     color: #434242;
     font-size: 18px;
     border-bottom: 1px solid #E7E7E7;
@@ -2658,7 +2891,8 @@ h5 .prev-price {
 .way .sales {
     margin-top: 50px;
 }
-.way .sales a:first-of-type img{
+
+.way .sales a:first-of-type img {
     float: left;
 }
 
@@ -2671,17 +2905,105 @@ h5 .prev-price {
 
 /********** add pro to cart ***********/
 
-.add-pro-to-cart
-{
-    max-width: 1250px;
+.add-pro-to-cart {
+    display: none;
+    width: 65%;
     position: absolute;
     top: 32%;
     left: 20%;
     z-index: 100;
-    max-height: 748px;
+    border: 1px solid #e7e7e7;
+
+    background: white;
+    max-height: 33.4%;
+
+}
+
+.close-pro {
+    float: right;
+    background: white;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    outline: none;
+    top: -23px;
+    right: -20px;
+    font-size: 18px;
+    color: #707070;
+}
+
+.add-pro-to-cart .row {
+    justify-content: space-between !important;
+    margin: 5px 46px;
+}
+
+.add-pro-to-cart .row>div {
+
+    margin: 0px 0px;
+    padding: 0%;
+}
+
+.add-pro-to-cart .products .pro-img img {
+
+    height: 100%;
+    width: 100%;
+}
+
+.add-pro-to-cart .products .product-details {
+    text-align: initial;
+    padding-left: 17px;
+    padding-top: 50px;
+
 }
 
 
+.products .product-details>p,
+.add-pro-to-cart .product-details>div {
+    max-width: 525px;
+}
+
+.add-pro-to-cart .products .product-quantity {
+    display: flex;
+    align-content: space-around;
+    justify-content: space-between;
+    margin-bottom: 13px;
+    align-items: flex-end;
+}
+
+.add-pro-to-cart .products .cartadd .addcart {
+    margin-top: 12px !important;
+}
+
+.add-pro-to-cart .products .cartadd .addcart:first-of-type {
+    background-color: #DB242C;
+}
+
+.opacity-all {
+    width: 100%;
+    background-color: #000000;
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    opacity: .8;
+    display: none;
+}
+
+/*
+.add-pro-to-cart .products .col-md-4:last-of-type {
+    width: 100% !important;
+    padding: 0%;
+}
+*/
 
 
 /********** add pro to cart ***********/
+
+
+.add-pro-to-cart .products .semi-product {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

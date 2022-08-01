@@ -12,7 +12,7 @@
 
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
   <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css" />
-  <link rel="stylesheet" href="assets/css/newday.css">
+  <link rel="stylesheet" href="assets/css/new.css">
 
   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -32,7 +32,7 @@
         </div>
 
         <div class="tops">
-          <form class="form-inline " style="padding-top: 28px;">
+          <form class="form-inline" >
             <i class='fas fa-search' style='font-size:24px;color:red;'></i>
             <input class="form-control mr-sm-2" type="search" placeholder="ابحث عن ما تريد....">
           </form>
@@ -148,6 +148,7 @@
 
 
     </div>
+    <div style="width: 100%;border-bottom: 1px solid #F7F7F7!important;"></div>
 
 
   </header>

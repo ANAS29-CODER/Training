@@ -257,7 +257,7 @@ include('layouts/Header.php');
                                 <div class="heads">
                                     <p class="discount" style="float: right;">خصم <span class="percent"></span> %</p>
 
-                                    <p style="float: left"><a href="#" class="like"> <i class="fa fa-heart"></i></a></p>
+                                    <p style="float: left"><i class="fa fa-heart"></i></p>
 
                                 </div>
 
@@ -306,7 +306,7 @@ include('layouts/Header.php');
                                 <div class="heads">
                                     <p class="discount" style="float: right;">خصم <span class="percent"></span> %</p>
 
-                                    <p style="float: left"><a href="#" class="like"> <i class="fa fa-heart"></i></a></p>
+                                    <p style="float: left"><i class="fa fa-heart"></i></p>
 
                                 </div>
 
@@ -355,7 +355,7 @@ include('layouts/Header.php');
                                 <div class="heads">
                                     <p class="discount" style="float: right;">خصم <span class="percent"></span> %</p>
 
-                                    <p style="float: left"><a href="#" class="like"> <i class="fa fa-heart"></i></a></p>
+                                    <p style="float: left"><i class="fa fa-heart"></i></p>
 
                                 </div>
 
@@ -404,7 +404,7 @@ include('layouts/Header.php');
                                 <div class="heads">
                                     <p class="discount" style="float: right;">خصم <span class="percent"></span> %</p>
 
-                                    <p style="float: left"><a href="#" class="like"> <i class="fa fa-heart"></i></a></p>
+                                    <p style="float: left"><i class="fa fa-heart"></i></p>
 
                                 </div>
 
@@ -453,7 +453,7 @@ include('layouts/Header.php');
                                 <div class="heads">
                                     <p class="discount" style="float: right;">خصم <span class="percent"></span> %</p>
 
-                                    <p style="float: left"><a href="#" class="like"> <i class="fa fa-heart"></i></a></p>
+                                    <p style="float: left"><i class="fa fa-heart"></i></p>
 
                                 </div>
 
@@ -501,7 +501,7 @@ include('layouts/Header.php');
                                 <div class="heads">
                                     <p class="discount" style="float: right;">خصم <span class="percent"></span> %</p>
 
-                                    <p style="float: left"><a href="#" class="like"> <i class="fa fa-heart"></i></a></p>
+                                    <p style="float: left"><i class="fa fa-heart"></i></p>
 
                                 </div>
 
