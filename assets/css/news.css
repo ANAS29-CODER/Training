@@ -3917,8 +3917,11 @@ h5 .prev-price {
 
 .products .first .semi-product img {
     max-width: unset;
-    height: 22%;
+    height: 29%;
     max-height: 72px;
+}
+.products .first .semi-product img:not(:first-of-type) {
+    display: none;
 }
 
 .products .semi-product img {
