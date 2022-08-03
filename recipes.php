@@ -24,7 +24,7 @@ include('layouts/Header.php');
                 <div class="re">
                     <p>وصفة الأسبوع</p>
                     <p>سلطة الخضار</p>
-                    <p> <a href="#"><img src="Images/recipes/عرض المزيد.png" alt=""></a></p>
+                    <p> <a href="#"><img src="Images/recipes/more.png" alt=""></a></p>
                 </div>
 
             </div>
@@ -52,7 +52,7 @@ include('layouts/Header.php');
                         <p >وقت التحضير <span>15</span></p>
                        
                     </div>
-                    <a><img src="Images/recipes/عرض المزيد2.png" alt=""></a>
+                    <a><img src="Images/recipes/more2.png" alt=""></a>
                 </div>
 
             </div>
@@ -67,7 +67,7 @@ include('layouts/Header.php');
                         <p >وقت التحضير <span>15</span></p>
                        
                     </div>
-                    <a><img src="Images/recipes/عرض المزيد2.png" alt=""></a>
+                    <a><img src="Images/recipes/more2.png" alt=""></a>
                 </div>
 
                 
@@ -85,7 +85,7 @@ include('layouts/Header.php');
                         <p >وقت التحضير <span>15</span></p>
                        
                     </div>
-                    <a><img src="Images/recipes/عرض المزيد2.png" alt=""></a>
+                    <a><img src="Images/recipes/more2.png" alt=""></a>
                 </div>
 
             </div>

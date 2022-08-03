@@ -49,9 +49,9 @@ include('layouts/Header.php');
                     <div class="prices all">
                         <div class="price">
 
-                            <p> السعر : <span class="before-sale">225 <img src="Images/products/₪.png" alt=""></span></p>
+                            <p> السعر : <span class="before-sale">225 <img src="Images/products/sh.png" alt=""></span></p>
 
-                            <p> السعر بعد الخصم : <span class="after-sale">215 <img src="Images/products/₪red.png" alt=""></span></p>
+                            <p> السعر بعد الخصم : <span class="after-sale">215 <img src="Images/products/shred.png" alt=""></span></p>
 
                         </div>
 
@@ -79,7 +79,7 @@ include('layouts/Header.php');
                     </div>
 
                     <div class="total-product-price">
-                        <p>السعر الكلي :<span>215 <img src="Images/products/₪red.png" alt=""></span></p>
+                        <p>السعر الكلي :<span>215 <img src="Images/products/shred.png" alt=""></span></p>
                     </div>
 
 
@@ -125,7 +125,7 @@ include('layouts/Header.php');
                     <div class="product-most-sale-details">
                         <p>جل غسيل ماكسما زهر 3 لتر Musk</p>
 
-                        <p class="p">22.00 <img src="Images/products/₪bold.png" alt=""></p>
+                        <p class="p">22.00 <img src="Images/products/shbold.png" alt=""></p>
                     </div>
 
 
@@ -140,7 +140,7 @@ include('layouts/Header.php');
                     <div class="product-most-sale-details">
                         <p>جل غسيل ماكسما زهر 3 لتر Musk</p>
 
-                        <p class="p">22.00 <img src="Images/products/₪bold.png" alt=""></p>
+                        <p class="p">22.00 <img src="Images/products/shbold.png" alt=""></p>
                     </div>
 
 
@@ -156,7 +156,7 @@ include('layouts/Header.php');
                     <div class="product-most-sale-details">
                         <p>جل غسيل ماكسما زهر 3 لتر Musk</p>
 
-                        <p class="p">22.00 <img src="Images/products/₪bold.png" alt=""></p>
+                        <p class="p">22.00 <img src="Images/products/shbold.png" alt=""></p>
                     </div>
 
 
@@ -172,7 +172,7 @@ include('layouts/Header.php');
                     <div class="product-most-sale-details">
                         <p>جل غسيل ماكسما زهر 3 لتر Musk</p>
 
-                        <p class="p">22.00 <img src="Images/products/₪bold.png" alt=""></p>
+                        <p class="p">22.00 <img src="Images/products/shbold.png" alt=""></p>
                     </div>
 
 
@@ -188,7 +188,7 @@ include('layouts/Header.php');
                     <div class="product-most-sale-details">
                         <p>جل غسيل ماكسما زهر 3 لتر Musk</p>
 
-                        <p class="p">22.00 <img src="Images/products/₪bold.png" alt=""></p>
+                        <p class="p">22.00 <img src="Images/products/shbold.png" alt=""></p>
                     </div>
 
 

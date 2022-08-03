@@ -108,7 +108,7 @@ include('layouts/Header.php');
 
         <div class="way-integrades">
             <div class=" products sales">
-                <a href="#"> <img class="img-fluid" src="Images/عرض المزيد.png" alt="عرض المزيد"> </a>
+                <a href="#"> <img class="img-fluid" src="Images/more.png" alt="عرض المزيد"> </a>
                 <h4 class="titleSlide right">مكونات الوصفة  </h4>
 
                 <div class="fruits">
@@ -117,7 +117,7 @@ include('layouts/Header.php');
                         <div class=" prod">
 
                             <div class=" images ">
-                                <img src="Images/special products/تين.png" alt="">
+                                <img src="Images/special products/te.png" alt="">
                                 <div class="heads">
 
 
@@ -167,7 +167,7 @@ include('layouts/Header.php');
                         <div class=" prod">
 
                             <div class=" images ">
-                                <img src="Images/special products/برتقال.png" alt="">
+                                <img src="Images/special products/or.png" alt="">
                                 <div class="heads">
 
 
@@ -218,7 +218,7 @@ include('layouts/Header.php');
                         <div class=" prod">
 
                             <div class=" images ">
-                                <img src="Images/special products/اسكدنيا.png" alt="">
+                                <img src="Images/special products/skn.png" alt="">
                                 <div class="heads">
 
 
@@ -269,7 +269,7 @@ include('layouts/Header.php');
                         <div class=" prod">
 
                             <div class=" images ">
-                                <img src="Images/special products/بطيخ.png" alt="">
+                                <img src="Images/special products/me.png" alt="">
                                 <div class="heads">
 
 
@@ -320,7 +320,7 @@ include('layouts/Header.php');
                         <div class=" prod">
 
                             <div class=" images ">
-                                <img src="Images/special products/مانجا.png" alt="">
+                                <img src="Images/special products/or.png" alt="">
                                 <div class="heads">
 
 
@@ -371,7 +371,7 @@ include('layouts/Header.php');
                         <div class=" prod">
 
                             <div class=" images ">
-                                <img src="Images/special products/برتقال.png" alt="">
+                                <img src="Images/special products/or.png" alt="">
                                 <div class="heads">
 
 
