@@ -9,11 +9,8 @@
 
 
 }
-body{
-  
 
-
-}
+body {}
 
 header {
     text-align: center;
@@ -248,7 +245,7 @@ a:hover {
 .down .navbar-nav {
     display: -ms-flexbox;
     display: flex;
- 
+
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
@@ -310,8 +307,7 @@ a:hover {
 
 
 @media (max-width : 991px) {
-    .close-ul
-    {
+    .close-ul {
         display: block !important;
         width: 30px;
         color: red;
@@ -319,9 +315,11 @@ a:hover {
         background: none;
         border: none;
     }
-    .close-ul:active{
+
+    .close-ul:active {
         border: none;
     }
+
     .ul nav {
         flex-direction: row-reverse;
 
@@ -333,11 +331,11 @@ a:hover {
         left: -16.3%;
         top: -258%;
         z-index: 500;
-     
+
         max-height: 1000px;
 
-        
-        
+
+
 
     }
 
@@ -351,6 +349,7 @@ a:hover {
         text-align: center;
         padding: 10px 60px;
     }
+
     .ul .nav-item:first-of-type {
         margin-top: 0%;
     }
@@ -1362,14 +1361,20 @@ h5 .prev-price {
 .personal .container {
     padding: 56px 0px !important;
 }
-.container-personal{
-    margin: 20px 12% !important; 
+
+.container-personal {
+    margin: 37px 12% !important;
 }
 
 .personal .info {
     position: relative;
-    border-bottom: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
+}
+
+.personal .info .photo img {
+
+    max-width: 59%;
+
 }
 
 .personal .info .photo,
@@ -1421,6 +1426,7 @@ h5 .prev-price {
     text-align: initial;
     padding-right: 23px;
     height: 61px;
+    margin-bottom: 50px;
 }
 
 .personal button span {
@@ -1438,9 +1444,9 @@ h5 .prev-price {
 
 
 .personal .internal {
-    height: 321px;
+    max-height: 320px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 26px;
     border: .1rem solid #eee;
 }
 
@@ -1454,6 +1460,12 @@ h5 .prev-price {
     width: 109px;
     height: 33px;
     margin-top: 10px;
+    margin-bottom: 34px;
+}
+
+.manage-profile label {
+    margin-right: 5px;
+
 }
 
 .personal .new-photo label {
@@ -1539,6 +1551,536 @@ h5 .prev-price {
     margin-top: 27px;
     color: #434242;
 }
+
+
+@media only screen and (min-width:993px) and (max-width:1200px) {
+    .names h3 {
+
+        font-size: 1.45rem;
+
+    }
+
+    .names p {
+        font-size: 15px;
+    }
+
+    .personal button span {
+        margin-left: 10px;
+    }
+
+    .personal .sittings button {
+
+        padding-right: 23px;
+        height: 50px;
+        font-size: 13px;
+    }
+
+    .personal .info .photo img {
+        max-width: 67%;
+    }
+
+    .manage-profile label {
+        margin-bottom: .3rem;
+
+    }
+
+    .personal form input {
+        height: 40px;
+    }
+
+    .personal .internal .image {
+        width: 151px;
+        height: 151px;
+    }
+
+
+    .personal .add-new .col-6>p {
+        margin-bottom: 6px;
+        margin-top: 17px;
+    }
+
+    .personal .detailss p:first-of-type {
+        margin-top: 11px;
+    }
+
+    .personal .detailss p {
+
+        padding-right: 14px;
+        font-size: 15px;
+    }
+
+
+
+
+
+
+
+}
+
+
+@media only screen and (min-width:768px) and (max-width:992px) {
+    .personal .info .photo img {
+        max-width: 67%;
+    }
+
+    .names h3 {
+
+        font-size: 1.1rem;
+
+    }
+
+    .names p {
+        font-size: 10px;
+    }
+
+    .personal .sittings p:first-of-type {
+        padding-top: 18px;
+    }
+
+    .personal .sittings p {
+        margin-bottom: 21px;
+    }
+
+
+
+    .personal .sittings p span {
+        margin-left: 10px;
+    }
+
+    .personal .sittings button {
+        padding-right: 20px;
+        height: 46px;
+        font-weight: bold;
+        font-size: 9px;
+    }
+
+
+    .manage-profile label {
+        margin-bottom: .2rem;
+        font-size: 15px;
+
+    }
+
+    .personal form input {
+        height: 33px;
+        font-size: 12px;
+    }
+
+    .manage-profile .form-group {
+        margin-bottom: .5rem;
+    }
+
+    .personal .internal {
+        padding-top: 17px;
+    }
+
+    .personal .internal .image {
+        width: 151px;
+        height: 151px;
+    }
+
+    .personal .internal .pic-photo {
+
+        margin-bottom: 23px;
+    }
+
+    .personal .manage-profile button {
+
+        text-align: initial;
+        padding-right: 10px;
+        height: 40px;
+        width: 100px;
+        text-align: center;
+        max-height: 37px;
+        font-size: 14px;
+    }
+
+
+    .personal .add-new {
+        margin-top: 39px;
+    }
+
+    .personal .add-new button {
+        width: 100px;
+        text-align: center;
+        max-height: 37px;
+    }
+
+    .personal .detailss p {
+        padding-right: 10px;
+        font-size: 12px;
+    }
+
+    .personal .add-new .col-6>p {
+        margin-bottom: 10px;
+        margin-top: 13px;
+    }
+
+
+
+
+}
+
+@media only screen and (min-width:561px) and (max-width:767px) {
+
+    .container-personal .col-3 {
+        -ms-flex: 0 0 34%;
+        flex: 0 0 34% !important;
+        max-width: 34% !important;
+    }
+
+    .personal .info .photo img {
+        max-width: 55%;
+    }
+
+    .names h3 {
+
+        font-size: 1.1rem;
+
+    }
+
+    .names p {
+        font-size: 10px;
+    }
+
+    .personal .sittings p:first-of-type {
+        padding-top: 18px;
+    }
+
+    .personal .sittings p {
+        margin-bottom: 21px;
+    }
+
+
+
+    .personal .sittings p span {
+        margin-left: 10px;
+    }
+
+    .personal .sittings button {
+        padding-right: 20px;
+        height: 46px;
+        font-weight: bold;
+        font-size: 9px;
+    }
+
+
+    .manage-profile label {
+        margin-bottom: .2rem;
+        font-size: 15px;
+
+    }
+
+    .personal form input {
+        height: 33px;
+        font-size: 12px;
+    }
+
+    .manage-profile .form-group {
+        margin-bottom: .5rem;
+    }
+
+    .personal .internal {
+        padding-top: 10px;
+    }
+
+    .personal .internal .image {
+        width: 120px;
+        height: 120px;
+    }
+
+    .personal .internal .pic-photo {
+
+        margin-bottom: 23px;
+    }
+
+    .personal .manage-profile button {
+
+
+        padding-right: 10px;
+        height: 33px;
+        width: 83px;
+        text-align: center;
+        max-height: 36px;
+        font-size: 13px;
+    }
+
+
+    .personal .add-new {
+        margin-top: 21px;
+    }
+
+
+    .personal .add-new button {
+        width: 85px;
+        text-align: center;
+        max-height: 35px;
+    }
+
+    .personal .detailss p {
+        padding-right: 4px;
+        font-size: 10px;
+    }
+
+    .personal .add-new .col-6>p {
+        margin-bottom: 10px;
+        margin-top: 17px;
+        font-size: 14px;
+    }
+
+
+
+
+}
+
+
+
+@media (max-width:560px) {
+
+    .personal .sittings p span {
+        margin-left: 10px;
+    }
+
+    .personal .sittings button {
+        padding-right: 20px;
+        height: 46px;
+        font-weight: bold;
+        font-size: 9px;
+    }
+
+
+    .manage-profile label {
+        margin-bottom: .2rem;
+        font-size: 15px;
+
+    }
+
+    .personal form input {
+        height: 33px;
+        font-size: 12px;
+    }
+
+    .manage-profile .form-group {
+        margin-bottom: .5rem;
+    }
+
+    .personal .internal {
+        padding-top: 10px;
+    }
+
+    .personal .internal .image {
+        width: 120px;
+        height: 120px;
+    }
+
+    .personal .internal .pic-photo {
+
+        margin-bottom: 23px;
+    }
+
+    .personal .manage-profile button {
+
+
+        padding-right: 10px;
+        height: 33px;
+        width: 83px;
+        text-align: center;
+        max-height: 36px;
+        font-size: 13px;
+    }
+
+
+    .personal .add-new {
+        margin-top: 21px;
+    }
+
+
+    .personal .add-new button {
+        width: 85px;
+        text-align: center;
+        max-height: 35px;
+    }
+
+    .personal .detailss p {
+        padding-right: 4px;
+        font-size: 10px;
+    }
+
+    .personal .add-new .col-6>p {
+        margin-bottom: 10px;
+        margin-top: 17px;
+        font-size: 14px;
+    }
+
+    .container-personal {
+        margin: 23px 3% !important;
+    }
+
+    .container-personal .col-3 {
+        flex: 0 0 45% !important;
+        max-width: 78% !important;
+    }
+
+    .personal .add-new .col-6>p {
+        margin-bottom: 10px;
+        margin-top: 17px;
+        font-size: 15px;
+        color: #434242;
+    }
+
+    .personal .detailss p {
+        padding-right: 4px;
+        font-size: 12px;
+        color: #434242;
+    }
+
+    .add-new .col-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 84%;
+        max-width: 50%;
+    }
+
+    .names h3 {
+
+        font-size: 1.1rem;
+
+    }
+
+    .names p {
+        font-size: 10px;
+    }
+
+    .personal .sittings p:first-of-type {
+        padding-top: 18px;
+    }
+
+    .personal .sittings p {
+        margin-bottom: 21px;
+    }
+
+
+
+}
+
+@media only screen and (min-width:341px) and (max-width:450px) {
+
+    .personal .manage-profile button {
+        font-size: 10px;
+        height: 33px;
+        width: 60px;
+    }
+
+    .personal .add-new button {
+        width: 70px;
+        font-size: 10px;
+    }
+
+
+
+}
+
+/*
+@media  only screen and (min-width:291px) and  (max-width:340px) {
+
+    .names h3 {
+        font-size: .9rem;
+    }
+
+    .names p {
+        font-size: 8px;
+    }
+
+    .personal .info .names {
+        margin-top: 21px;
+        margin-bottom: 21px;
+    }
+
+    .personal .sittings p {
+        margin-bottom: 17px;
+        font-size: 10px;
+        color: #434242;
+        padding-right: 17px;
+    }
+
+    .personal .sittings p span {
+        margin-left: 2px;
+    }
+
+    .personal .sittings button {
+        padding-right: 16px;
+        height: 40px;
+        font-weight: bold;
+        font-size: 8px;
+    }
+
+
+    .add-new .col-6 {
+        flex: 0 0 99%;
+       
+    }
+
+    .personal .detailss p:last-of-type {
+        margin-bottom: 10px;
+    }
+
+    .personal .detailss p {
+        padding-right: 4px;
+        font-size: 10px;
+        color: #434242;
+    }
+
+    .personal .add-new .col-6>p {
+        margin-bottom: 6px;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+
+    .personal button span {
+        margin-left: 0px;
+    }
+
+
+
+
+
+}*/
+
+
+@media (max-width:340px) {
+    .container-margin {
+        margin: 0% auto;
+        padding-top: 65px;
+        max-width: 100%;
+    }
+    .container-personal .row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .container-personal .col-3 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+
+    .add-new .col-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 100%;
+        max-width: 50%;
+    }
+
+    .personal .manage-profile button {
+
+        padding-right: 9px;
+        width: 98px;
+        max-height: 38px;
+    }
+
+}
+
+
+
 
 /*********END OF personal***********/
 
@@ -1679,6 +2221,7 @@ h5 .prev-price {
     margin-top: 30px;
 }
 
+
 .callus .col {
     max-width: 350px;
     padding: 0%;
@@ -1773,9 +2316,19 @@ h5 .prev-price {
 
 
 /*********START OF Products***********/
+.products .container-ss
+{
+    padding: 70px 0px;
+    margin: 0% 3%;
+}
+.products .container-ss .row{
+    margin-right: 0px;
+    margin-left: 0px;
+    justify-content: space-between;
+}
 
 .products .col-md-4 {
-    max-width: 536px;
+
     padding: 0%;
 }
 
@@ -1791,8 +2344,7 @@ h5 .prev-price {
 /******************here ***********/
 /*********************************/
 .products .product-img img {
-    max-width: 536px;
-    height: 100%;
+   width: 100%;
 }
 
 /******************here ***********/
@@ -1804,11 +2356,6 @@ h5 .prev-price {
 
 
 
-@media (min-width: 1200px) {
-    .products .container {
-        max-width: 1640px;
-    }
-}
 
 
 
@@ -1824,14 +2371,32 @@ h5 .prev-price {
 
 .products .product-details {
     text-align: initial;
-    margin-right: 51px;
-
+    
 }
 
 .products .product-details>p {
     font-size: 26px;
     font-family: Noto Kufi Arabic;
 }
+@media (max-width:1400px){
+    .products .product-details>p {
+        font-size: 23px;
+    }
+}
+
+
+@media (max-width:1400px){
+    .products .product-details>p {
+        font-size: 23px;
+    }
+}
+
+@media (max-width:1400px){
+    .products .product-details>p {
+        font-size: 21px;
+    }
+}
+
 
 .products .product-details>p span {
     float: left;
@@ -1904,14 +2469,11 @@ h5 .prev-price {
 
 .products .product-quantity .click {
     height: 43px;
-    /* padding: 10px 0px; */
     max-width: 50px;
 
 }
 
-.products .product-quantity .word {
-    /* padding-top: 20px;*/
-}
+
 
 .products .total-product-price p {
     padding-top: 15px;
@@ -1964,8 +2526,9 @@ h5 .prev-price {
 
 
 .products .most-sale {
-    padding-right: 171px;
+    padding-right: 4%;
     text-align: initial;
+    padding-left: 9px;
 
 }
 
@@ -2078,9 +2641,6 @@ h5 .prev-price {
 .same-product .row .prod {
     max-width: 297px;
 }
-
-
-
 
 
 
@@ -2491,6 +3051,9 @@ h5 .prev-price {
 
 
 
+.products .semi-product {
+    text-align: start;
+}
 
 
 
@@ -2964,10 +3527,12 @@ h5 .prev-price {
     margin: 0px 0px;
     padding: 0%;
 }
-.add-pro-to-cart .products .pro-img{
+
+.add-pro-to-cart .products .pro-img {
 
     text-align: center;
 }
+
 .add-pro-to-cart .products .pro-img img {
 
     height: 100%;
@@ -3051,14 +3616,15 @@ h5 .prev-price {
     }
 
 
-    .prod .details h5, .prod .details h5 span {
+    .prod .details h5,
+    .prod .details h5 span {
         display: flex;
         align-items: flex-end;
         font-size: 17px;
     }
 
 
-   .prod .details>p {
+    .prod .details>p {
         font-size: 12px;
         line-height: 20px;
     }
@@ -3069,11 +3635,11 @@ h5 .prev-price {
         max-width: 34px;
         text-align: center;
     }
-    
+
     .prod .number {
-      
-        width:60px;
- 
+
+        width: 60px;
+
     }
 
     .prod .addcart {
@@ -3086,20 +3652,22 @@ h5 .prev-price {
 
 @media (max-width: 1400px) {
 
-.products .all{
+    .products .all {
 
-    max-height: 60px;
-}
-.product-details .all p:first-of-type {
-    padding-top: 15px;
-    
-    font-size: 16px;
+        max-height: 60px;
+    }
 
-}
-.prices p {
-    font-size: 18px;
-    padding-top: 12px;
-}
+    .product-details .all p:first-of-type {
+        padding-top: 15px;
+
+        font-size: 16px;
+
+    }
+
+    .prices p {
+        font-size: 18px;
+        padding-top: 12px;
+    }
 
 }
 
@@ -3107,22 +3675,308 @@ h5 .prev-price {
 @media (max-width: 1516px) {
     .products .semi-product img {
         width: 28%;
-    
+
     }
 }
 
 
 @media (max-width: 1276px) {
     .products .semi-product img {
-        width: 38%;
-    
+        width: 32%;
+
     }
 }
 
 @media (max-width: 1080px) {
-    .products .semi-product img {
+   .add-pro-to-cart .products .semi-product img {
         height: 170px;
         width: 48%;
-    
+
     }
 }
+
+
+@media only screen and (min-width:281px) and (max-width:360px) {
+    .container-margin {
+        margin: 0% 2% 0% 0%;
+    }
+
+
+
+
+}
+
+
+@media (max-width:280px) {
+
+    .container-margin {
+        margin: 0%;
+        width: 100% !important;
+    }
+
+}
+
+@media (max-width:460px) {
+    .footer .info h5 {
+        margin-bottom: 6px;
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .footer .row div p {
+        line-height: 25px;
+        font-size: 10px;
+        width: 100%;
+}
+
+
+}
+
+@media (max-width:270px) {
+
+    .footer form {
+        position: relative;
+    }
+
+    .footer form button{
+        position: absolute;
+        left: 1%;
+        top: 11%;
+    }
+    .footer .icons a img{
+        max-width: 10%;
+    }
+
+    header .head{
+        margin: 0%;
+    }
+
+}
+
+
+
+
+
+ .group-price  .all {
+
+    max-height: 100% !important;
+}
+
+
+
+/******* responsive for product page*************/
+
+
+@media (max-width:1400px){
+    .products .product-quantity .input-group {
+        width: 25% !important;
+        padding-top: 7px;
+    }
+}
+
+
+@media (max-width:1200px){
+    .container-ss .row {
+        justify-content: unset !important;
+    }
+    .products .semi-product img {
+        max-width: 24%;
+    }
+
+   .container-ss .row .col-md-3 {
+      
+        flex: 0 0 37%;
+        max-width: 50%;
+
+        padding:0px 2px;
+    }
+
+    .container-ss .row  .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 43.333333%;
+        max-width: 50.333333%;
+        margin-right: 6%;
+    }
+
+    .container-ss .row  .col-md-4:last-of-type {
+        margin-right: 0%;
+    }
+    .products .most-sale-products {
+        display: flex;
+        max-width: 335px;
+    }
+
+    .products .product-most-sale-details {
+        margin-right: 33px;
+    }
+
+    .product-most-sale-details p:first-of-type{
+        margin-bottom: 0%;
+    }
+    
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media (max-width:992px){
+    .products .product-details>p {
+        font-size: 18px;
+        margin-bottom: 0%;
+    }
+   .container-ss .row .col-md-3 {
+      
+        flex: 0 0 37%;
+        max-width: 50%;
+    }
+
+    .container-ss .row  .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 43.333333%;
+        max-width: 50.333333%;
+        margin-right: 6%;
+    }
+
+    .product-details .all p:first-of-type {
+        padding-top: 15px;
+        font-size: 15px;
+    }
+    .product-details .rate p:last-of-type{
+        padding-top: 14px !important;
+        font-size: 13px;
+    }
+
+   .products  .container-ss  .all {
+        max-height: 48px ;
+    }
+
+    .prices .price p {
+        font-size: 16px;
+        padding-top: 12px;
+    }
+
+    .products .product-quantity {
+        width: 100%;
+    }
+
+
+}
+
+
+@media (max-width:767px){
+    .products .container-ss {
+        margin: 0% 7%;
+    }
+
+
+    .container-ss .row .col-md-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+
+
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-content: space-around;
+        align-items: flex-start;
+        max-height: 400px;
+        height: inherit;
+    }
+
+    .products .container-ss .product-img {
+        order: 2;
+        text-align: center;
+        background-color: #f5f5dc3d;
+        max-width: 70%;
+        margin-right: 10%;
+
+}
+
+.products .product-img img {
+    width: 52%;
+}
+.products .container-ss .semi-product
+{
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    width: 13%;
+    height: 100%;
+}
+
+.products .first .semi-product img {
+    max-width: unset;
+    height: 22%;
+    max-height: 72px;
+}
+
+.products .semi-product img {
+    width: 82px;
+}
+
+
+
+
+.container-ss .row .col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 80.333333%;
+    max-width: 98.333333%;
+    margin-right: 6%;
+}
+
+
+
+
+
+.container-ss .row .col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 91.333333%;
+    max-width: 98.333333%;
+     margin-right: 0%; 
+}
+
+.products .most-sale-products {
+    display: flex;
+    max-width: 421px;
+}.products .product-most-sale-details {
+    margin-right: 24px;
+
+
+}
+
+
+.products .product-most-sale-details p {
+    font-size: 17px;
+}
+.products .product-most-sale-details .p {
+    font-size: 16px;
+}
+.products .product-details>p{
+    max-width: 100%;
+}
+.products .cartadd .addcart {
+       max-width: 100% !important;
+}
+
+.products .container-ss.links {
+    margin-top: 29px;
+}
+.links .icons a img{
+    width: 13%;
+}
+
+
+
+}
+/******* end of responsive for product page*************/

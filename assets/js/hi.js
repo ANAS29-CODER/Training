@@ -250,8 +250,24 @@ $('.close-pro').on("click", function(){
 
 });
 
+var width=window.innerWidth;
 
-$('.close-ul').css('color','blue');
+$('.close-ul').click(function(){
+    $('.navbar-collapse').toggleClass('show');
 
+   
+});
+
+
+$('.navbar-toggler').click(function(){
+    console.log('toggler');
+   
+
+    if(width=='991'){
+        $('.navbar-collapse').addClass('sticky-top');
+
+
+    }
+});
 
 

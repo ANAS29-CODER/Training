@@ -9,9 +9,9 @@ include('layouts/Header.php');
 
 
 <div class="products">
-    <div class="container">
+    <div class="container-ss">
         <div class="row">
-            <div class=" col-sm-6 col-md-4  first">
+            <div class=" col-sm-6 col-md-3  first">
                 <div class="product-img">
                     <img src="Images/products/kIKu3yxsrrOf7AZrKUl6hg9dDyt9WMIeytJ7cIEr.png" alt="">
                 </div>
