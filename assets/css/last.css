@@ -1256,8 +1256,10 @@ h5 .prev-price {
 
 /*********START OF REGISTER PAGE***********/
 
-
-.register {}
+.container-rr {
+    padding: 70px 0px;
+    margin: 0% 12%;
+}
 
 .register .row {
     height: 100%;
@@ -1269,11 +1271,17 @@ h5 .prev-price {
 
 }
 
-.register .row img {
-    height: 100%;
+.register .row .retitle img {
+    height: 70%;
     width: inherit;
     max-height: 816px;
+    width: 100%;
 
+}
+
+.container-rr .im img {
+    width: 100%;
+    height: 100%;
 }
 
 .register .logo {
@@ -1290,7 +1298,7 @@ h5 .prev-price {
 .retitle {
     text-align: start;
     max-width: 200px;
-    height: 100px;
+
     margin: 0% auto;
 }
 
@@ -1352,6 +1360,7 @@ h5 .prev-price {
     align-content: flex-start;
     flex-wrap: wrap;
 }
+
 
 
 /*********END OF REGISTER PAGE***********/
@@ -1462,6 +1471,7 @@ h5 .prev-price {
     margin-top: 10px;
     margin-bottom: 34px;
 }
+
 .manage-profile label {
     margin-right: 5px;
 
@@ -1552,7 +1562,7 @@ h5 .prev-price {
 }
 
 
-@media  only screen and (min-width:993px) and (max-width:1200px) {
+@media only screen and (min-width:993px) and (max-width:1200px) {
     .names h3 {
 
         font-size: 1.45rem;
@@ -1601,8 +1611,9 @@ h5 .prev-price {
     .personal .detailss p:first-of-type {
         margin-top: 11px;
     }
+
     .personal .detailss p {
-      
+
         padding-right: 14px;
         font-size: 15px;
     }
@@ -1616,10 +1627,11 @@ h5 .prev-price {
 }
 
 
-@media  only screen and (min-width:768px) and (max-width:992px) {
+@media only screen and (min-width:768px) and (max-width:992px) {
     .personal .info .photo img {
         max-width: 67%;
     }
+
     .names h3 {
 
         font-size: 1.1rem;
@@ -1629,18 +1641,21 @@ h5 .prev-price {
     .names p {
         font-size: 10px;
     }
+
     .personal .sittings p:first-of-type {
         padding-top: 18px;
     }
+
     .personal .sittings p {
         margin-bottom: 21px;
     }
 
-   
+
 
     .personal .sittings p span {
         margin-left: 10px;
     }
+
     .personal .sittings button {
         padding-right: 20px;
         height: 46px;
@@ -1650,7 +1665,8 @@ h5 .prev-price {
 
 
     .manage-profile label {
-        margin-bottom: .2rem;font-size: 15px;
+        margin-bottom: .2rem;
+        font-size: 15px;
 
     }
 
@@ -1673,12 +1689,12 @@ h5 .prev-price {
     }
 
     .personal .internal .pic-photo {
-    
+
         margin-bottom: 23px;
     }
 
     .personal .manage-profile button {
-   
+
         text-align: initial;
         padding-right: 10px;
         height: 40px;
@@ -1714,16 +1730,18 @@ h5 .prev-price {
 
 }
 
-@media  only screen and (min-width:561px) and (max-width:767px) {
+@media only screen and (min-width:561px) and (max-width:767px) {
 
     .container-personal .col-3 {
         -ms-flex: 0 0 34%;
         flex: 0 0 34% !important;
         max-width: 34% !important;
     }
+
     .personal .info .photo img {
         max-width: 55%;
     }
+
     .names h3 {
 
         font-size: 1.1rem;
@@ -1733,18 +1751,21 @@ h5 .prev-price {
     .names p {
         font-size: 10px;
     }
+
     .personal .sittings p:first-of-type {
         padding-top: 18px;
     }
+
     .personal .sittings p {
         margin-bottom: 21px;
     }
 
-   
+
 
     .personal .sittings p span {
         margin-left: 10px;
     }
+
     .personal .sittings button {
         padding-right: 20px;
         height: 46px;
@@ -1754,7 +1775,8 @@ h5 .prev-price {
 
 
     .manage-profile label {
-        margin-bottom: .2rem;font-size: 15px;
+        margin-bottom: .2rem;
+        font-size: 15px;
 
     }
 
@@ -1777,13 +1799,13 @@ h5 .prev-price {
     }
 
     .personal .internal .pic-photo {
-    
+
         margin-bottom: 23px;
     }
 
     .personal .manage-profile button {
-   
-        
+
+
         padding-right: 10px;
         height: 33px;
         width: 83px;
@@ -1796,7 +1818,7 @@ h5 .prev-price {
     .personal .add-new {
         margin-top: 21px;
     }
-    
+
 
     .personal .add-new button {
         width: 85px;
@@ -1822,7 +1844,82 @@ h5 .prev-price {
 
 
 
-@media  only screen and (min-width:451px) and (max-width:560px) {
+@media (max-width:560px) {
+
+    .personal .sittings p span {
+        margin-left: 10px;
+    }
+
+    .personal .sittings button {
+        padding-right: 20px;
+        height: 46px;
+        font-weight: bold;
+        font-size: 9px;
+    }
+
+
+    .manage-profile label {
+        margin-bottom: .2rem;
+        font-size: 15px;
+
+    }
+
+    .personal form input {
+        height: 33px;
+        font-size: 12px;
+    }
+
+    .manage-profile .form-group {
+        margin-bottom: .5rem;
+    }
+
+    .personal .internal {
+        padding-top: 10px;
+    }
+
+    .personal .internal .image {
+        width: 120px;
+        height: 120px;
+    }
+
+    .personal .internal .pic-photo {
+
+        margin-bottom: 23px;
+    }
+
+    .personal .manage-profile button {
+
+
+        padding-right: 10px;
+        height: 33px;
+        width: 83px;
+        text-align: center;
+        max-height: 36px;
+        font-size: 13px;
+    }
+
+
+    .personal .add-new {
+        margin-top: 21px;
+    }
+
+
+    .personal .add-new button {
+        width: 85px;
+        text-align: center;
+        max-height: 35px;
+    }
+
+    .personal .detailss p {
+        padding-right: 4px;
+        font-size: 10px;
+    }
+
+    .personal .add-new .col-6>p {
+        margin-bottom: 10px;
+        margin-top: 17px;
+        font-size: 14px;
+    }
 
     .container-personal {
         margin: 23px 3% !important;
@@ -1830,29 +1927,51 @@ h5 .prev-price {
 
     .container-personal .col-3 {
         flex: 0 0 45% !important;
-    max-width: 78% !important;
+        max-width: 78% !important;
     }
+
     .personal .add-new .col-6>p {
         margin-bottom: 10px;
         margin-top: 17px;
         font-size: 15px;
         color: #434242;
     }
+
     .personal .detailss p {
         padding-right: 4px;
         font-size: 12px;
         color: #434242;
     }
+
     .add-new .col-6 {
         -ms-flex: 0 0 50%;
         flex: 0 0 84%;
         max-width: 50%;
     }
 
+    .names h3 {
+
+        font-size: 1.1rem;
+
+    }
+
+    .names p {
+        font-size: 10px;
+    }
+
+    .personal .sittings p:first-of-type {
+        padding-top: 18px;
+    }
+
+    .personal .sittings p {
+        margin-bottom: 21px;
+    }
+
+
 
 }
 
-@media  only screen and (min-width:341px) and  (max-width:450px) {
+@media only screen and (min-width:341px) and (max-width:450px) {
 
     .personal .manage-profile button {
         font-size: 10px;
@@ -1869,7 +1988,7 @@ h5 .prev-price {
 
 }
 
-
+/*
 @media  only screen and (min-width:291px) and  (max-width:340px) {
 
     .names h3 {
@@ -1934,27 +2053,38 @@ h5 .prev-price {
 
 
 
-}
+}*/
 
 
-@media (max-width:290px){
+@media (max-width:340px) {
+    .container-margin {
+        margin: 0% auto;
+        padding-top: 65px;
+        max-width: 100%;
+    }
+
+    .container-personal .row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
     .container-personal .col-3 {
         flex: 0 0 100% !important;
         max-width: 100% !important;
     }
 
 
-   .add-new .col-6 {
+    .add-new .col-6 {
         -ms-flex: 0 0 50%;
         flex: 0 0 100%;
         max-width: 50%;
     }
 
     .personal .manage-profile button {
-        
+
         padding-right: 9px;
-            width: 98px;
-            max-height: 38px;
+        width: 98px;
+        max-height: 38px;
     }
 
 }
@@ -1969,8 +2099,10 @@ h5 .prev-price {
 
 .services {}
 
-.services .container {
+.services .container-ser {
     padding: 50px 0px !important;
+    margin: 0% 12%;
+
 }
 
 .services .topnew {
@@ -1988,6 +2120,7 @@ h5 .prev-price {
 .services .topnew>h3 {
     color: #434242;
     font-weight: bold;
+    padding-top: 18px;
 }
 
 .services .auth p {
@@ -2101,6 +2234,7 @@ h5 .prev-price {
     margin-top: 30px;
 }
 
+
 .callus .col {
     max-width: 350px;
     padding: 0%;
@@ -2195,9 +2329,19 @@ h5 .prev-price {
 
 
 /*********START OF Products***********/
+.products .container-ss {
+    padding: 70px 0px;
+    margin: 0% 3%;
+}
+
+.products .container-ss .row {
+    margin-right: 0px;
+    margin-left: 0px;
+    justify-content: space-between;
+}
 
 .products .col-md-4 {
-    max-width: 536px;
+
     padding: 0%;
 }
 
@@ -2213,8 +2357,7 @@ h5 .prev-price {
 /******************here ***********/
 /*********************************/
 .products .product-img img {
-    max-width: 536px;
-    height: 100%;
+    width: 100%;
 }
 
 /******************here ***********/
@@ -2226,11 +2369,6 @@ h5 .prev-price {
 
 
 
-@media (min-width: 1200px) {
-    .products .container {
-        max-width: 1640px;
-    }
-}
 
 
 
@@ -2246,7 +2384,6 @@ h5 .prev-price {
 
 .products .product-details {
     text-align: initial;
-    margin-right: 51px;
 
 }
 
@@ -2254,6 +2391,26 @@ h5 .prev-price {
     font-size: 26px;
     font-family: Noto Kufi Arabic;
 }
+
+@media (max-width:1400px) {
+    .products .product-details>p {
+        font-size: 23px;
+    }
+}
+
+
+@media (max-width:1400px) {
+    .products .product-details>p {
+        font-size: 23px;
+    }
+}
+
+@media (max-width:1400px) {
+    .products .product-details>p {
+        font-size: 21px;
+    }
+}
+
 
 .products .product-details>p span {
     float: left;
@@ -2326,14 +2483,11 @@ h5 .prev-price {
 
 .products .product-quantity .click {
     height: 43px;
-    /* padding: 10px 0px; */
     max-width: 50px;
 
 }
 
-.products .product-quantity .word {
-    /* padding-top: 20px;*/
-}
+
 
 .products .total-product-price p {
     padding-top: 15px;
@@ -2386,8 +2540,9 @@ h5 .prev-price {
 
 
 .products .most-sale {
-    padding-right: 171px;
+    padding-right: 4%;
     text-align: initial;
+    padding-left: 9px;
 
 }
 
@@ -2500,9 +2655,6 @@ h5 .prev-price {
 .same-product .row .prod {
     max-width: 297px;
 }
-
-
-
 
 
 
@@ -2913,6 +3065,9 @@ h5 .prev-price {
 
 
 
+.products .semi-product {
+    text-align: start;
+}
 
 
 
@@ -3541,13 +3696,13 @@ h5 .prev-price {
 
 @media (max-width: 1276px) {
     .products .semi-product img {
-        width: 38%;
+        width: 32%;
 
     }
 }
 
 @media (max-width: 1080px) {
-    .products .semi-product img {
+    .add-pro-to-cart .products .semi-product img {
         height: 170px;
         width: 48%;
 
@@ -3555,7 +3710,7 @@ h5 .prev-price {
 }
 
 
-@media only screen and (min-width:281px) and (max-width:360px){
+@media only screen and (min-width:281px) and (max-width:360px) {
     .container-margin {
         margin: 0% 2% 0% 0%;
     }
@@ -3566,7 +3721,7 @@ h5 .prev-price {
 }
 
 
-@media (max-width:280px){
+@media (max-width:280px) {
 
     .container-margin {
         margin: 0%;
@@ -3575,3 +3730,655 @@ h5 .prev-price {
 
 }
 
+@media (max-width:460px) {
+    .footer .info h5 {
+        margin-bottom: 6px;
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .footer .row div p {
+        line-height: 25px;
+        font-size: 10px;
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width:270px) {
+
+    .footer form {
+        position: relative;
+    }
+
+    .footer form button {
+        position: absolute;
+        left: 1%;
+        top: 11%;
+    }
+
+    .footer .icons a img {
+        max-width: 10%;
+    }
+
+    header .head {
+        margin: 0%;
+    }
+
+}
+
+
+
+
+
+.group-price .all {
+
+    max-height: 100% !important;
+}
+
+
+
+/******* responsive for product page*************/
+
+
+@media (max-width:1400px) {
+    .products .product-quantity .input-group {
+        width: 25% !important;
+        padding-top: 7px;
+    }
+}
+
+
+@media (max-width:1200px) {
+    .container-ss .row {
+        justify-content: unset !important;
+    }
+
+    .products .semi-product img {
+        max-width: 24%;
+    }
+
+    .container-ss .row .col-md-3 {
+
+        flex: 0 0 37%;
+        max-width: 50%;
+
+        padding: 0px 2px;
+    }
+
+    .container-ss .row .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 43.333333%;
+        max-width: 50.333333%;
+        margin-right: 6%;
+    }
+
+    .container-ss .row .col-md-4:last-of-type {
+        margin-right: 0%;
+    }
+
+    .products .most-sale-products {
+        display: flex;
+        max-width: 335px;
+    }
+
+    .products .product-most-sale-details {
+        margin-right: 33px;
+    }
+
+    .product-most-sale-details p:first-of-type {
+        margin-bottom: 0%;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media (max-width:992px) {
+    .products .product-details>p {
+        font-size: 18px;
+        margin-bottom: 0%;
+    }
+
+    .container-ss .row .col-md-3 {
+
+        flex: 0 0 37%;
+        max-width: 50%;
+    }
+
+    .container-ss .row .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 43.333333%;
+        max-width: 50.333333%;
+        margin-right: 6%;
+    }
+
+    .product-details .all p:first-of-type {
+        padding-top: 15px;
+        font-size: 15px;
+    }
+
+    .product-details .rate p:last-of-type {
+        padding-top: 14px !important;
+        font-size: 13px;
+    }
+
+    .products .container-ss .all {
+        max-height: 48px;
+    }
+
+    .prices .price p {
+        font-size: 16px;
+        padding-top: 12px;
+    }
+
+    .products .product-quantity {
+        width: 100%;
+    }
+
+
+}
+
+
+@media (max-width:767px) {
+    .products .container-ss {
+        margin: 0% 7%;
+    }
+
+
+    .container-ss .row .col-md-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+
+
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-content: space-around;
+        align-items: flex-start;
+        max-height: 400px;
+        height: inherit;
+    }
+
+    .products .container-ss .product-img {
+        order: 2;
+        text-align: center;
+        background-color: #f5f5dc3d;
+        max-width: 70%;
+        margin-right: 10%;
+
+    }
+
+    .products .product-img img {
+        width: 52%;
+    }
+
+    .products .container-ss .semi-product {
+        order: 1;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+
+        width: 13%;
+        height: 100%;
+    }
+
+    .products .first .semi-product img {
+        max-width: unset;
+        height: 29%;
+        max-height: 72px;
+    }
+
+    .products .first .semi-product img:not(:first-of-type) {
+        display: none;
+    }
+
+    .products .semi-product img {
+        width: 82px;
+    }
+
+
+
+
+    .container-ss .row .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 80.333333%;
+        max-width: 98.333333%;
+        margin-right: 6%;
+    }
+
+
+
+
+
+    .container-ss .row .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 91.333333%;
+        max-width: 98.333333%;
+        margin-right: 0%;
+    }
+
+    .products .most-sale-products {
+        display: flex;
+        max-width: 421px;
+    }
+
+    .products .product-most-sale-details {
+        margin-right: 24px;
+
+
+    }
+
+
+    .products .product-most-sale-details p {
+        font-size: 17px;
+    }
+
+    .products .product-most-sale-details .p {
+        font-size: 16px;
+    }
+
+    .products .product-details>p {
+        max-width: 100%;
+    }
+
+    .products .cartadd .addcart {
+        max-width: 100% !important;
+    }
+
+    .products .container-ss.links {
+        margin-top: 29px;
+    }
+
+    .links .icons a img {
+        width: 13%;
+    }
+
+
+
+}
+
+/******* end of responsive for product page*************/
+
+
+/*******  responsive for regiter page*************/
+
+@media (max-width:1200px) {
+    .register .logo {
+        padding: 0px 54px 0px 20px !important;
+
+    }
+
+    .register .container-rr .form-control {
+        height: 38px !important;
+        margin-bottom: 7px;
+        font-size: 14px;
+    }
+
+    .register .container-rr form .btn {
+        width: 148px !important;
+        height: 51px;
+        background-color: #DB242C;
+        color: white;
+        margin-top: 13px;
+        margin-bottom: 3px;
+    }
+
+    .register.container-rr .join hr {
+        max-width: 67%;
+    }
+
+    .container-rr .join {
+        margin-top: 17px;
+    }
+
+
+
+
+
+}
+
+
+@media (max-width:992px) {
+
+
+
+    .register .row .retitle img {
+        height: 70%;
+        width: inherit;
+        max-height: 816px;
+        width: 82%;
+    }
+
+    .register .form-group {
+        margin-bottom: 0;
+    }
+
+
+    .register .container-rr .form-control {
+        height: 33px !important;
+        margin-bottom: 7px;
+        font-size: 12px;
+    }
+
+
+    .register .container-rr form .btn {
+        width: 107px !important;
+        height: 35px;
+        background-color: #DB242C;
+        color: white;
+        margin-top: 7px;
+        margin-bottom: 3px;
+    }
+
+    .register .joinim {
+        margin-top: 17px;
+        margin-right: 10px;
+    }
+
+    .container-rr .join {
+        margin-top: 9px;
+    }
+
+
+
+
+}
+
+
+
+
+/******* end of responsive for regiter page*************/
+
+
+
+/*******  responsive for services page*************/
+
+
+@media (max-width:1400px) {
+    .services .date .row {
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    .services .auth h2 {
+        font-size: 1.8rem;
+    }
+
+    .services .auth p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .services .date .row>div p {
+        font-size: 23px;
+    }
+
+    .services .datetime {
+        font-size: 27px !important;
+        margin-top: 15px;
+    }
+
+
+
+    .date .row .col img {
+        max-width: 68px;
+        max-height: 69px;
+
+
+    }
+}
+
+
+@media (max-width:1200px) {
+
+    .services .date .row {
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    .services .auth h2 {
+        font-size: 1.6rem;
+    }
+
+    .services .auth p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .services .date .row>div p {
+        font-size: 19px;
+    }
+
+    .services .datetime {
+        font-size: 24px !important;
+        margin-top: 15px;
+        margin-bottom: 5%;
+    }
+
+
+
+    .date .row .col img {
+        max-width: 65px;
+        max-height: 64px;
+
+
+    }
+
+
+}
+
+
+
+
+@media (max-width:992px) {
+
+    .services .date .row {
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    .services .date .row .col {
+        padding: 0%;
+    }
+
+    .services .auth h2 {
+        font-size: 1.4rem;
+
+        margin-top: 15px;
+
+    }
+
+    .services .auth p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .services .date .row>div p {
+        font-size: 17px;
+    }
+
+    .services .datetime {
+        font-size: 22px !important;
+        margin-top: 14px;
+        margin-bottom: 5%;
+    }
+
+
+
+    .date .row .col img {
+        max-width: 60px;
+        max-height: 60px;
+
+
+    }
+
+
+}
+
+
+@media (max-width:767px) {
+
+
+  
+
+    .services .datetime {
+        font-size: 20px !important;
+        margin-top: 8px;
+
+    }
+
+
+    .date .row .col img {
+        max-width: 47px;
+        max-height: 47px;
+    }
+
+    .services .history .description p {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .services .date .row>div p {
+        font-size: 11px;
+    }
+    .services .our-work 
+    {
+        text-align: center;
+    }
+
+    .services .our-work .work {
+        font-size: 21px;
+        text-align: start;
+    margin-right: 6%;
+
+    }
+
+    .services .our-work .description p {
+        font-size: 13px;
+    }
+
+
+
+
+    .services .our-work .row .col{
+        order: 2;
+        max-width: 85%;
+        text-align: initial;
+        margin-top: 2%;
+        margin-right: 7%;
+    }
+    
+    .services .our-work .row .col-5{
+        order: 1;
+        max-width: 87%;
+        flex:0 0 100%;
+        margin: 0% auto;
+        max-height: 235px;
+    }
+
+    .services .history .row .col{
+        order: 2;
+        max-width: 85%;
+        text-align: initial;
+        margin-top: 2%;
+        margin-right: 7%;
+    }
+    
+    .services .history .row .col-5{
+        order: 1;
+        max-width: 87%;
+        flex:0 0 100%;
+        margin: 0% auto;
+        max-height: 235px;
+    }
+    .services .history .description p {
+        font-size: 10px;
+        margin-bottom: 8px;
+    }
+
+
+}
+
+
+@media (max-width:540px) {
+
+    .services .container-ser {
+        padding: 25px 0px !important;
+        margin: 0% 4%;
+    }
+
+    .services .date .row {
+        justify-content: space-between;
+    }
+
+    .services .date .row .col {
+        padding: 0%;
+        flex: 0 0 46%;
+        margin-right: 0%;
+        margin-top: 10px;
+    }
+
+    .services .date .row>div:not(:first-of-type) {
+        margin-right: 0%;
+    }
+
+    .services .description {
+        padding-left: 0%;
+    }
+
+    .services .history .description p {
+        font-size: 11px;
+        margin-bottom: 13px;
+    }
+
+    .services .our-work .work {
+        font-size: 18px;
+    }
+
+    .services .history {
+
+        margin-bottom: 41px;
+    }
+
+
+    .services .our-work {
+
+        margin-top: 33px;
+    }
+
+    .services .our-work .description p {
+        margin-bottom: 4%;
+        line-height: 15px;
+    }
+
+    .services .topnew>h3 {
+
+        font-size: 1.2rem;
+        margin-bottom: 0%;
+    }
+
+    .services .auth h2 {
+        font-size: 1rem;
+        margin-top: 21px;
+    }
+    .services .auth p {
+        font-size: 8px;
+        margin-bottom: 6%;
+        
+    }
+
+}
+
+/******* end of responsive for services page*************/

@@ -10,7 +10,7 @@ include('layouts/Header.php');
 
 
 <div class="services">
-    <div class="container">
+    <div class="container-ser">
 
         <div class="topnew">
             <h3>خدمات الشركة</h3>

@@ -10,7 +10,7 @@ include('layouts/Header.php');
 
 
 <div class="register">
-    <div class="container">
+    <div class="container-rr">
 
         <div class="row">
             <div class="col-12 col-sm-6 im">

@@ -1256,8 +1256,11 @@ h5 .prev-price {
 
 /*********START OF REGISTER PAGE***********/
 
-
-.register {}
+.container-rr
+{
+    padding: 70px 0px;
+    margin: 0% 12%;
+}
 
 .register .row {
     height: 100%;
@@ -1270,9 +1273,10 @@ h5 .prev-price {
 }
 
 .register .row img {
-    height: 100%;
+    height: 70%;
     width: inherit;
     max-height: 816px;
+    width: 100%;
 
 }
 
@@ -1290,7 +1294,7 @@ h5 .prev-price {
 .retitle {
     text-align: start;
     max-width: 200px;
-    height: 100px;
+    
     margin: 0% auto;
 }
 
