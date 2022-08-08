@@ -1,7 +1,62 @@
 </div>
+
+
+
+
+<div class="botoom">
+
+    <div class="containers">
+
+        <div class="row">
+            <div class="col">
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        home
+                    </span>
+                    <span>الرئيسية</span>
+                </a>
+            </div>
+            <div class="col">
+                <a href="#">
+                <span class="material-symbols-outlined">
+                    category
+                </span>
+                <span>الاقسام</span>
+                </a>
+            </div>
+            <div class="col-auto"></div>
+
+            <div class="col">
+            <a href="#">
+                <span class="material-symbols-outlined">
+                    notifications
+                </span>
+                <span>الاشعارات</span>
+                </a>
+            </div>
+
+
+            <div class="col">
+            <a href="#">
+                <span class="material-symbols-outlined">
+                    person
+                </span>
+                <span>حسابي</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
 <footer class="footer">
-    <div class="container-margin" >
-        
+    <div class="container-margin">
+
         <div class="row">
 
             <div class=" col-12  col-sm-12 col-md-4   col-xl-4">
@@ -94,17 +149,17 @@
 
             <div class="pay">
 
-            
-                    <a href="#"><img src="Images/visa.png" alt=""></a>
-                    <a href="#"><img src="Images/bank.png" alt=""></a>
-                    <a href="#"><img src="Images/paypal.png" alt=""></a>
-                    <a href="#"><img src="Images/you.png" alt=""></a>
-                 
 
-                   
-                    
-                 
-                
+                <a href="#"><img src="Images/visa.png" alt=""></a>
+                <a href="#"><img src="Images/bank.png" alt=""></a>
+                <a href="#"><img src="Images/paypal.png" alt=""></a>
+                <a href="#"><img src="Images/you.png" alt=""></a>
+
+
+
+
+
+
             </div>
 
             <div class="creator">
@@ -139,7 +194,7 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
 
-<script src="assets/js/hi.js"> 
+<script src="assets/js/j.js">
 
 </script>
 

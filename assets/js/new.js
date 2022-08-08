@@ -100,7 +100,7 @@ $('.sliders').slick({
     rtl: true,
 });
 
-
+/*
 $(document).ready(function () {
 
     $('.ds').slick({
@@ -148,8 +148,15 @@ $(document).ready(function () {
 
 
     });
-});
+});*/
 
+
+
+
+
+
+
+/*
 $(document).ready(function () {
 
     $('.fruits').slick({
@@ -198,6 +205,8 @@ $(document).ready(function () {
 
     });
 });
+
+*/
 
 /*
 
@@ -269,5 +278,6 @@ $('.navbar-toggler').click(function(){
 
     }
 });
+
 
 

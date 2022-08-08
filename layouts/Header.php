@@ -12,8 +12,8 @@
 
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
   <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css" />
-  <link rel="stylesheet" href="assets/css/last.css">
-
+  <link rel="stylesheet" href="assets/css/new.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Metro</title>
@@ -22,7 +22,7 @@
 <body>
 
   <header>
-    <div class="head">
+    <div class="container head">
 
 
       <div class="top">
@@ -32,18 +32,20 @@
         </div>
 
         <div class="tops">
-          <form class="form-inline" >
+          <form class="form-inline">
             <i class='fas fa-search' style='font-size:24px;color:red;'></i>
             <input class="form-control mr-sm-2" type="search" placeholder="ابحث عن ما تريد....">
           </form>
 
         </div>
 
-        <div class="topf carts">
+        <div class="topf carts vv">
 
           <span class="products"> 2</span>
           <a href="#" class="cart">
-            <i class='fas fa-shopping-cart' style='font-size:24px;color:black'></i>
+            <span class="material-symbols-outlined">
+              shopping_basket
+            </span>
             <span class="topdesc">سلتي</span>
           </a>
 
@@ -53,10 +55,10 @@
 
         </div>
 
-        <div class="topf">
+        <div class="topf vv">
           <span class="products"> 2</span>
           <a href="#">
-            <i class='fas fa-heart' style='font-size:24px;color:black'></i>
+            <i class='fas fa-heart'></i>
             <span class="topdesc">قائمة الرغبات</span>
           </a>
         </div>
@@ -65,16 +67,18 @@
 
 
 
-        <div class="topf">
-          <a href="#"><i class='fas fa-user' style='font-size:24px;color:black'></i>
+        <div class="topf vv">
+          <a href="#"><i class='fas fa-user'></i>
             <span class="topdesc">تسجيل الدخول</span></a>
           </a>
         </div>
+
+
       </div>
 
     </div>
-    <div style="width: 100%;border-bottom: 1px solid #F7F7F7!important;"></div>
-    <div class="head ">
+    <div style="width: 100%;border-bottom: 1px solid #F7F7F7!important;" class="line"></div>
+    <div class="container head  re">
       <div class="down">
 
         <div class="first">
@@ -100,14 +104,14 @@
         <div class="ul">
           <nav class="navbar navbar-expand-lg navbar-light ">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon" style="color: red;"></span>
             </button>
 
             <div class=" collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ">
-                
-                  <button class="close-ul" style="display: none;">x</button>
-                
+
+                <button class="close-ul" style="display: none;">x</button>
+
                 <li class="nav-item active">
                   <a class="nav-link" href="#"> الرئيسية <span class="sr-only">(current)</span></a>
                 </li>
@@ -117,11 +121,13 @@
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="#"> منتجات مميزة</a>
-                </li>
-                <li class="nav-item">
                   <a class="nav-link" href="#"> العروض </a>
                 </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> منتجات مميزة</a>
+                </li>
+
 
                 <li class="nav-item">
                   <a class="nav-link" href="#"> مواد غذائية</a>
