@@ -103,7 +103,7 @@ $('.sliders').slick({
 
 $(document).ready(function () {
 
-    $('.sales').slick({
+    $('.bav').slick({
         rtl: true,
         slidesToShow: 5,
         slidesToScroll: 1,
@@ -155,7 +155,7 @@ $(document).ready(function () {
 
 
 
-
+/*
 
 $(document).ready(function () {
 
@@ -206,7 +206,7 @@ $(document).ready(function () {
     });
 });
 
-
+*/
 
 /*
 

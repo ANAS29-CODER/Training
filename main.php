@@ -79,7 +79,9 @@ include('layouts/Header.php');
                                     </div>
                                     <div class="sure-add">
                                         <button class="form-control addcart">
-                                            <i class="fa fa-shopping-basket"></i>
+                                            <span class="material-symbols-outlined">
+                                                shopping_basket
+                                            </span>
                                             اضافة للسلة </button>
                                     </div>
 
@@ -96,7 +98,7 @@ include('layouts/Header.php');
 
                     </div>
                 </div>
-                <!--
+                
             <div>
                 <div class="prod">
                     <div class=" images ">
@@ -642,7 +644,7 @@ include('layouts/Header.php');
             </div>
 
 
--->
+
             </div>
 
 
@@ -693,7 +695,9 @@ include('layouts/Header.php');
                                     </div>
                                     <div class="sure-add">
                                         <button class="form-control addcart">
-                                            <i class="fa fa-shopping-basket"></i>
+                                            <span class="material-symbols-outlined">
+                                                shopping_basket
+                                            </span>
                                             اضافة للسلة </button>
                                     </div>
 
@@ -742,7 +746,9 @@ include('layouts/Header.php');
                                     </div>
                                     <div class="sure-add">
                                         <button class="form-control addcart">
-                                            <i class="fa fa-shopping-basket"></i>
+                                            <span class="material-symbols-outlined">
+                                                shopping_basket
+                                            </span>
                                             اضافة للسلة </button>
                                     </div>
 
@@ -793,7 +799,9 @@ include('layouts/Header.php');
                                     </div>
                                     <div class="sure-add">
                                         <button class="form-control addcart">
-                                            <i class="fa fa-shopping-basket"></i>
+                                            <span class="material-symbols-outlined">
+                                                shopping_basket
+                                            </span>
                                             اضافة للسلة </button>
                                     </div>
 
@@ -845,7 +853,9 @@ include('layouts/Header.php');
                                     </div>
                                     <div class="sure-add">
                                         <button class="form-control addcart">
-                                            <i class="fa fa-shopping-basket"></i>
+                                            <span class="material-symbols-outlined">
+                                                shopping_basket
+                                            </span>
                                             اضافة للسلة </button>
                                     </div>
 
@@ -895,7 +905,9 @@ include('layouts/Header.php');
                                     </div>
                                     <div class="sure-add">
                                         <button class="form-control addcart">
-                                            <i class="fa fa-shopping-basket"></i>
+                                            <span class="material-symbols-outlined">
+                                                shopping_basket
+                                            </span>
                                             اضافة للسلة </button>
                                     </div>
 
@@ -923,7 +935,10 @@ include('layouts/Header.php');
                             <div class="heads">
 
 
-                                <p style="float: left"><i class="fa fa-heart"></i></p>
+                                <p style="float: left"> <span class="material-symbols-outlined">
+                                        shopping_basket
+                                    </span>
+                                    </i></p>
 
                             </div>
 
@@ -946,7 +961,10 @@ include('layouts/Header.php');
                                     </div>
                                     <div class="sure-add">
                                         <button class="form-control addcart">
-                                            <i class="fa fa-shopping-basket"></i>
+                                            <span class="material-symbols-outlined">
+                                                shopping_basket
+                                            </span>
+
                                             اضافة للسلة </button>
                                     </div>
 
@@ -1178,10 +1196,18 @@ include('layouts/Header.php');
 
                 <div class="cartadd">
                     <button class="form-control addcart" style="font-size: 18px;">
-                        <i class="fa fa-shopping-basket" style="margin-left: 10px;"></i>
+                        <span class="material-symbols-outlined" style="margin-left: 10px;">
+                            shopping_basket
+                        </span>
+
+
                         اضافة الى للسلة </button>
                     <button class="form-control addcart" style="font-size: 18px;">
-                        <i class="fa fa-shopping-basket" style="margin-left: 10px;"></i>
+                        <span class="material-symbols-outlined" style="margin-left: 10px;">
+                            shopping_basket
+                        </span>
+
+
                         اشتري الأن </button>
                 </div>
 
