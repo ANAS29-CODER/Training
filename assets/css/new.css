@@ -4719,7 +4719,9 @@ header .container {
     .container {
         max-width: 927px;
     }
-
+    .top {
+        grid-template-columns: 18.57% 45.859% 11.59% 12.069% 11.59%;
+    }
     .navbar-nav .nav-item {
         padding: 10px 0px !important;
     }
@@ -4961,6 +4963,7 @@ header .container {
     text-align: center;
     height: 70px;
     box-shadow: 0px -3px 7px 0px #f4f0f0;
+  
 
 }
 
@@ -4985,14 +4988,35 @@ header .container {
 }
 
 .botoom .col a {
-    color: rgb(58 57 57);
-    opacity: .8;
+    color: rgb(58 57 57 / 56%);
     font-size: 15px;
 }
+.botoom .col-auto a {
+    display: flex;
+    flex-direction: column;
+}
+.botoom .col-auto a >span:first-of-type{
+    background: #DB242C;
+    color: white;
+    border-radius: 50%;
+    font-size: 21px;
+    width: 45px;
+    height: 45px;
+ 
+    padding-top: 11px;
+    padding-left: 1px;
+    margin-top: -11px;
+    box-shadow: inset 0px 0px 0px 5px #ffffff;
+}
+.botoom .col .material-symbols-outlined
+{
+opacity: .7;
+}
 
-
-
-
-
+@media (min-width:1201px){
+    .botoom{
+       background-color: #DB242C;
+    }
+}
 
 /********** end of bottom container*********/

@@ -279,14 +279,4 @@ $('.navbar-toggler').click(function(){
     }
 });
 
-/*
-if(width <= '767'){
-   
-    $(".tops form .form-control").removeAttr("placeholder");
-
-}else{
-    $(".tops form .form-control").attr("placeholder","ابحث عن ما تريد...");
-}
-*/
-
 

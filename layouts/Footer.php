@@ -18,30 +18,38 @@
             </div>
             <div class="col">
                 <a href="#">
-                <span class="material-symbols-outlined">
-                    category
-                </span>
-                <span>الاقسام</span>
+                    <span class="material-symbols-outlined">
+                        category
+                    </span>
+                    <span>الاقسام</span>
                 </a>
             </div>
-            <div class="col-auto"></div>
+            <div class="col-auto">
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        shopping_basket
+                    </span>
+                    <span class="topdesc">سلتي <span class="num-item">(0)</span></span>
+                </a>
+
+            </div>
 
             <div class="col">
-            <a href="#">
-                <span class="material-symbols-outlined">
-                    notifications
-                </span>
-                <span>الاشعارات</span>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        notifications
+                    </span>
+                    <span>الاشعارات</span>
                 </a>
             </div>
 
 
             <div class="col">
-            <a href="#">
-                <span class="material-symbols-outlined">
-                    person
-                </span>
-                <span>حسابي</span>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        person
+                    </span>
+                    <span>حسابي</span>
                 </a>
             </div>
         </div>
