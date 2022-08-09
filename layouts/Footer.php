@@ -202,7 +202,7 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
 
-<script src="assets/js/q.js">
+<script src="assets/js/j.js">
 
 </script>
 

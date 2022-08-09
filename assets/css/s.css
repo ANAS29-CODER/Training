@@ -301,7 +301,7 @@ a:hover {
     flex-wrap: wrap;
 }
 
-.navbar-nav .nav-item {
+header .down .navbar-nav .nav-item {
     padding: 10px 34.5px;
 
 
@@ -451,10 +451,10 @@ a:hover {
 
 
 
-
+/*
 .down .navbar-nav .nav-item:first-of-type {
     padding: 0px !important;
-}
+}*/
 
 .down .navbar-nav .nav-item {
     padding: 5px 0px;
@@ -549,7 +549,7 @@ a:hover {
 
 
 /******************Demo**************/
-
+/*
 .slick-dots {
     display: none !important;
 }
@@ -649,18 +649,19 @@ a:hover {
         margin-right: 3px;
 
     }
-
-    /*
+*/
+/*
     .prod {
         max-width: 210px !important;
     }*/
 
-
+/*
     .quantity .sure-add button {
         padding: 0px 5px !important;
     }
 
 }
+*/
 
 
 
@@ -4132,6 +4133,7 @@ h5 .prev-price {
     height: 16px;
     font-size: 16px;
     padding-top: 2px;
+    letter-spacing:0px !important;
 }
 
 /******* end of responsive for product page*************/
@@ -4514,7 +4516,7 @@ h5 .prev-price {
 
 
 /*******  responsive for main page*************/
-/*
+
 .slider .slick-prev {
     right: 5px !important;
     left: auto;
@@ -4526,17 +4528,16 @@ h5 .prev-price {
     display: none;
 }
 
-@media (min-width:1401px){
+@media (min-width:1401px) {
 
     .sales .slick-initialized .slick-slide {
         display: block;
-       width:260px !important;
-      
-    
+        width: 275px !important;
+
+
     }
 }
 
-*/
 
 
 
@@ -4724,8 +4725,8 @@ header .container {
 
 
 
-.down .navbar-nav .nav-item:first-of-type {
-    padding: 10px 48px 10px 34px;
+header .down .navbar-nav .nav-item:first-of-type {
+    padding: 10px 48px 10px 34px !important;
 }
 
 
@@ -4745,7 +4746,7 @@ header .container {
     }
 
     .navbar-nav .nav-item {
-        padding: 10px 0px;
+        padding: 10px 0px !important;
     }
 
     .down .navbar-nav {
@@ -4758,8 +4759,8 @@ header .container {
         justify-content: space-between;
     }
 
-    .down .navbar-nav .nav-item:first-of-type {
-        padding: 10px 20px 10px 25px;
+    header .down .navbar-nav .nav-item:first-of-type {
+        padding: 10px 20px 10px 25px !important;
     }
 
     .tops form {
@@ -5100,3 +5101,76 @@ header .container {
 }
 
 /********** end of bottom container*********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+    .show-product .container {
+
+        max-width: 1140px;
+        padding: 80px 15px;
+
+
+    }
+
+    .sure-add button {
+        padding: 0px 10px;
+         padding-right: 0%; 
+        padding-left: 0%;
+    }
+}
+
+
+
+.ds {
+    overflow: hidden;
+    width: 100%;
+   
+}
+
+.sales .slick-list {
+    width: 100%;
+
+    display: block;
+}
+
+.sales .slick-track {
+    display: flex;
+    align-content: space-around !important;
+    justify-content: space-between !important;
+    margin: 0% 1%;
+}
+
+
+
+.sliders {
+    overflow: hidden;
+}
+
+
+@media (min-width:1401px) {
+
+    .sales .slick-initialized .slick-slide {
+        display: block;
+        
+        width: 264px !important;
+        margin-left:  .5%;
+
+    }
+}

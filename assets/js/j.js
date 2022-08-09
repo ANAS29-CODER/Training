@@ -103,7 +103,7 @@ $('.sliders').slick({
 
 $(document).ready(function () {
 
-    $('.sales').slick({
+    $('.ds').slick({
         rtl: true,
         slidesToShow: 5,
         slidesToScroll: 1,
@@ -111,35 +111,31 @@ $(document).ready(function () {
         dots: false,
         responsive: [
             {
-                breakpoint: 1400,
+                breakpoint: 1500,
                 settings: {
-                    slidesToShow: 4,
+                    slidesToShow:4,
                     slidesToScroll: 1,
                     infinite: false,
                     dots: false,
                 }
             },
             {
-                breakpoint: 1200,
+                breakpoint: 992,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow:3,
                     slidesToScroll: 1,
 
                 }
             },
             {
-                breakpoint: 800,
+                breakpoint: 767,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1
                 }
             },
             {
-                breakpoint: 500,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
+             
             }
             // You can unslick at a given breakpoint now by adding:
             // settings: "unslick"
@@ -155,7 +151,7 @@ $(document).ready(function () {
 
 
 
-
+/*
 
 $(document).ready(function () {
 
@@ -206,7 +202,7 @@ $(document).ready(function () {
     });
 });
 
-
+*/
 
 /*
 
