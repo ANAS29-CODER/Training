@@ -41,6 +41,12 @@ include('layouts/Header.php');
             <a href="#"> <img class="img-fluid" src="Images/more.png" alt="عرض المزيد"> </a>
             <h4 class="titleSlide right">عروض يومية</h4>
 
+            <button class="arrow-next arrows">
+                <span class="material-symbols-outlined">
+                    arrow_forward_ios
+                </span>
+            </button>
+
 
             <div class=" ds">
 
@@ -61,7 +67,7 @@ include('layouts/Header.php');
                     </div>
 
                     <div class="details">
-                        <h5> <span class="prev-price">50.000 <img src="Images/sh.png" alt=""></span> <span class="new-price">44.00<img src="Images/sh.png" alt=""></span></h5>
+                        <h5> <span class="prev-price">50.00 <img src="Images/sh.png" alt=""></span> <span class="new-price">44.00<img src="Images/sh.png" alt=""></span></h5>
 
                         <p> مشروب شعير بفاريا سادة 500مل <span style="display: block;">bavaria original</span> </p>
 
@@ -71,10 +77,11 @@ include('layouts/Header.php');
 
                             <div class="input-group ">
                                 <div class="plus-minus">
-                                    <button class="form-control click   plus"><span class="add-number">+</span></button>
+                                    <button class="form-control click   minus"> <span class="sub-number">-</span> </button>
+
 
                                     <button class="form-control click   number"><span class="daynamic-number" id="daynamic-number">1</span></button>
-                                    <button class="form-control click   minus"> <span class="sub-number">-</span> </button>
+                                    <button class="form-control click   plus"><span class="add-number">+</span></button>
                                 </div>
                                 <div class="sure-add">
                                     <button class="form-control addcart">
@@ -125,14 +132,15 @@ include('layouts/Header.php');
                             <div class="input-group ">
                                 <div class="plus-minus">
 
-                                    <button class="form-control click   minus"> <span>-</span> </button>
+                                    <button class="form-control click   minus"> <span>+</span> </button>
                                     <button class="form-control click   number"><span>1</span></button>
-                                    <button class="form-control click   plus"><span>+</span></button>
+                                    <button class="form-control click   plus"><span>-</span></button>
                                 </div>
                                 <div class="sure-add">
                                     <button class="form-control addcart">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        اضافة للسلة </button>
+                                        <span class="material-symbols-outlined">
+                                            shopping_basket
+                                        </span>اضافة للسلة </button>
                                 </div>
 
 
@@ -184,8 +192,9 @@ include('layouts/Header.php');
                                 </div>
                                 <div class="sure-add">
                                     <button class="form-control addcart">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        اضافة للسلة </button>
+                                        <span class="material-symbols-outlined">
+                                            shopping_basket
+                                        </span>اضافة للسلة </button>
                                 </div>
 
 
@@ -233,8 +242,9 @@ include('layouts/Header.php');
                                 </div>
                                 <div class="sure-add">
                                     <button class="form-control addcart">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        اضافة للسلة </button>
+                                        <span class="material-symbols-outlined">
+                                            shopping_basket
+                                        </span>اضافة للسلة </button>
                                 </div>
 
 
@@ -282,8 +292,9 @@ include('layouts/Header.php');
                                 </div>
                                 <div class="sure-add">
                                     <button class="form-control addcart">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        اضافة للسلة </button>
+                                        <span class="material-symbols-outlined">
+                                            shopping_basket
+                                        </span>اضافة للسلة </button>
                                 </div>
 
 
@@ -330,8 +341,9 @@ include('layouts/Header.php');
                                 </div>
                                 <div class="sure-add">
                                     <button class="form-control addcart">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        اضافة للسلة </button>
+                                        <span class="material-symbols-outlined">
+                                            shopping_basket
+                                        </span>اضافة للسلة </button>
                                 </div>
 
 
@@ -378,8 +390,9 @@ include('layouts/Header.php');
                                 </div>
                                 <div class="sure-add">
                                     <button class="form-control addcart">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        اضافة للسلة </button>
+                                        <span class="material-symbols-outlined">
+                                            shopping_basket
+                                        </span>اضافة للسلة </button>
                                 </div>
 
 
@@ -427,8 +440,9 @@ include('layouts/Header.php');
                                 </div>
                                 <div class="sure-add">
                                     <button class="form-control addcart">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        اضافة للسلة </button>
+                                        <span class="material-symbols-outlined">
+                                            shopping_basket
+                                        </span>اضافة للسلة </button>
                                 </div>
 
 
@@ -476,8 +490,9 @@ include('layouts/Header.php');
                                 </div>
                                 <div class="sure-add">
                                     <button class="form-control addcart">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        اضافة للسلة </button>
+                                        <span class="material-symbols-outlined">
+                                            shopping_basket
+                                        </span>اضافة للسلة </button>
                                 </div>
 
 
@@ -525,8 +540,9 @@ include('layouts/Header.php');
                                 </div>
                                 <div class="sure-add">
                                     <button class="form-control addcart">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        اضافة للسلة </button>
+                                        <span class="material-symbols-outlined">
+                                            shopping_basket
+                                        </span>اضافة للسلة </button>
                                 </div>
 
 
@@ -574,8 +590,9 @@ include('layouts/Header.php');
                                 </div>
                                 <div class="sure-add">
                                     <button class="form-control addcart">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        اضافة للسلة </button>
+                                        <span class="material-symbols-outlined">
+                                            shopping_basket
+                                        </span>اضافة للسلة </button>
                                 </div>
 
 
@@ -623,8 +640,9 @@ include('layouts/Header.php');
                                 </div>
                                 <div class="sure-add">
                                     <button class="form-control addcart">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        اضافة للسلة </button>
+                                        <span class="material-symbols-outlined">
+                                            shopping_basket
+                                        </span>اضافة للسلة </button>
                                 </div>
 
 
@@ -646,9 +664,477 @@ include('layouts/Header.php');
             </div>
 
 
+            <button class="arrow-prev arrows">
+                <span class="material-symbols-outlined">
+                    arrow_back_ios
+                </span>
+            </button>
+
+
 
 
         </div>
+
+        <div class=" products sales pros">
+            <a href="#"> <img class="img-fluid" src="Images/more.png" alt="عرض المزيد"> </a>
+            <h4 class="titleSlide right">منتجات مميزة </h4>
+
+            <button class="arrow-next arrows">
+                <span class="material-symbols-outlined">
+                    arrow_forward_ios
+                </span>
+            </button>
+
+            <div class="fruits">
+
+
+                <div class=" prod">
+
+                    <div class=" images ">
+                        <img src="Images/special products/te.png" alt="">
+                        <div class="heads">
+
+
+                            <p style="float: left"><i class="fa fa-heart"></i></p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="details">
+                        <h5 class="p-price">4.00 <img src="Images/sh.png" alt=""> </h5>
+
+                        <p> تين بلدي 1 كيلو </p>
+
+                        <div class="quantity">
+
+
+
+                            <div class="input-group ">
+                                <div class="plus-minus">
+
+                                    <button class="form-control click   minus"> <span>-</span> </button>
+                                    <button class="form-control click   number"><span>1</span></button>
+                                    <button class="form-control click   plus"><span>+</span></button>
+                                </div>
+                                <div class="sure-add">
+                                    <button class="form-control addcart">
+                                        <span class="material-symbols-outlined">
+                                            shopping_basket
+                                        </span>
+                                        اضافة للسلة </button>
+                                </div>
+
+
+
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <div class=" prod">
+
+                    <div class=" images ">
+                        <img src="Images/special products/or.png" alt="">
+                        <div class="heads">
+
+
+                            <p style="float: left"><i class="fa fa-heart"></i></p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="details">
+                        <h5 class="p-price">6.00 <img src="Images/sh.png" alt=""> </h5>
+
+                        <p>كلمنتينا 500g</p>
+                        <div class="quantity">
+
+
+
+                            <div class="input-group ">
+                                <div class="plus-minus">
+
+                                    <button class="form-control click   minus"> <span>-</span> </button>
+                                    <button class="form-control click   number"><span>1</span></button>
+                                    <button class="form-control click   plus"><span>+</span></button>
+                                </div>
+                                <div class="sure-add">
+                                    <button class="form-control addcart">
+                                        <span class="material-symbols-outlined">
+                                            shopping_basket
+                                        </span>
+                                        اضافة للسلة </button>
+                                </div>
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <div class=" prod">
+
+                    <div class=" images ">
+                        <img src="Images/special products/skn.png" alt="">
+                        <div class="heads">
+
+
+                            <p style="float: left"><i class="fa fa-heart"></i></p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="details">
+                        <h5 class="p-price">1.00 <img src="Images/sh.png" alt=""> </h5>
+
+                        <p> اسكدنيا 1 كيلو </p>
+
+                        <div class="quantity">
+
+
+                            <div class="input-group ">
+                                <div class="plus-minus">
+
+                                    <button class="form-control click   minus"> <span>-</span> </button>
+                                    <button class="form-control click   number"><span>1</span></button>
+                                    <button class="form-control click   plus"><span>+</span></button>
+                                </div>
+                                <div class="sure-add">
+                                    <button class="form-control addcart">
+                                        <span class="material-symbols-outlined">
+                                            shopping_basket
+                                        </span>
+                                        اضافة للسلة </button>
+                                </div>
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+
+                <div class=" prod">
+
+                    <div class=" images ">
+                        <img src="Images/special products/me.png" alt="">
+                        <div class="heads">
+
+
+                            <p style="float: left"><i class="fa fa-heart"></i></p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="details">
+                        <h5 class="p-price">8.00 <img src="Images/sh.png" alt=""> </h5>
+
+                        <p> بطيخ تقريبي الوزن 3 كيلو</p>
+
+                        <div class="quantity">
+
+
+
+                            <div class="input-group ">
+                                <div class="plus-minus">
+
+                                    <button class="form-control click   minus"> <span>-</span> </button>
+                                    <button class="form-control click   number"><span>1</span></button>
+                                    <button class="form-control click   plus"><span>+</span></button>
+                                </div>
+                                <div class="sure-add">
+                                    <button class="form-control addcart">
+                                        <span class="material-symbols-outlined">
+                                            shopping_basket
+                                        </span>
+                                        اضافة للسلة </button>
+                                </div>
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <div class=" prod">
+
+                    <div class=" images ">
+                        <img src="Images/special products/or.png" alt="">
+                        <div class="heads">
+
+
+                            <p style="float: left"><i class="fa fa-heart"></i></p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="details">
+                        <h5 class="p-price">3.00 <img src="Images/sh.png" alt=""> </h5>
+
+                        <p> مانجا مايا 500جم </p>
+                        <div class="quantity">
+
+
+
+                            <div class="input-group ">
+                                <div class="plus-minus">
+
+                                    <button class="form-control click   minus"> <span>-</span> </button>
+                                    <button class="form-control click   number"><span>1</span></button>
+                                    <button class="form-control click   plus"><span>+</span></button>
+                                </div>
+                                <div class="sure-add">
+                                    <button class="form-control addcart">
+                                        <span class="material-symbols-outlined">
+                                            shopping_basket
+                                        </span>
+                                        اضافة للسلة </button>
+                                </div>
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+
+                <div class=" prod">
+
+                    <div class=" images ">
+                        <img src="Images/special products/or.png" alt="">
+                        <div class="heads">
+
+
+                            <p style="float: left"> <span class="material-symbols-outlined">
+                                    shopping_basket
+                                </span>
+                                </i></p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="details">
+                        <h5 class="p-price">6.00 <img src="Images/sh.png" alt=""> </h5>
+
+                        <p>كلمنتينا 500g</p>
+                        <div class="quantity">
+
+
+
+                            <div class="input-group ">
+                                <div class="plus-minus">
+
+                                    <button class="form-control click   minus"> <span>-</span> </button>
+                                    <button class="form-control click   number"><span>1</span></button>
+                                    <button class="form-control click   plus"><span>+</span></button>
+                                </div>
+                                <div class="sure-add">
+                                    <button class="form-control addcart">
+                                        <span class="material-symbols-outlined">
+                                            shopping_basket
+                                        </span>
+
+                                        اضافة للسلة </button>
+                                </div>
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+            <button class="arrow-prev arrows">
+                <span class="material-symbols-outlined">
+                    arrow_back_ios
+                </span>
+            </button>
+
+
+        </div>
+
+
+
+
+
+        <div class=" products sales  groups">
+            <a href="#"> <img class="img-fluid" src="Images/more.png" alt="عرض المزيد"> </a>
+            <h4 class="titleSlide right"> تسوق حسب المطلوب </h4>
+
+            <div class="row">
+                <div class="col col-sm-4   col-lg-3 col-xl-2 items">
+
+                    <div class="logos" style="background-color:#FDF0EA ;">
+                        <img src="Images/svg/Group 402.png" alt="">
+
+                    </div>
+
+                    <h6>أطعمة طازجة</h6>
+                </div>
+
+
+                <div class="col col-sm-4   col-lg-3 col-xl-2 items">
+
+                    <div class="logos" style="background-color:#ECFFEC ;">
+                        <img src="Images/svg/Group 404.png" alt="">
+
+                    </div>
+
+                    <h6> خضروات وفواكه</h6>
+                </div>
+
+
+                <div class="col col-sm-4   col-lg-3 col-xl-2 items">
+
+                    <div class="logos" style="background-color:#FFFCEB ;">
+                        <img src="Images/svg/Group 401.png" alt="">
+
+                    </div>
+
+                    <h6> المشروبات</h6>
+                </div>
+
+
+                <div class="col col-sm-4   col-lg-3 col-xl-2 items">
+
+                    <div class="logos" style="background-color:#FFF3EB ;">
+                        <img src="Images/svg/Group 400.png" alt="">
+
+                    </div>
+
+                    <h6> منتجات الالبان</h6>
+                </div>
+
+
+                <div class="col col-sm-4   col-lg-3 col-xl-2 items">
+
+                    <div class="logos" style="background-color:#FBFFEE ;">
+                        <img src="Images/svg/Group 426.png" alt="">
+
+                    </div>
+
+                    <h6> منتجات غذائية</h6>
+                </div>
+
+
+
+                <div class="col col-sm-4   col-lg-3 col-xl-2 items">
+
+                    <div class="logos" style="background-color:#DB242C ;">
+
+                        <h6 class="more"> <a href="#">عرض المزيد</a> </h6>
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class=" products sales  brandss">
+            <a href="#"> <img class="img-fluid" src="Images/more.png" alt="عرض المزيد"> </a>
+            <h4 class="titleSlide right"> أفضل الماركات </h4>
+
+            <div class="brands row">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl bran"><img src="Images/brand/2560px-Amazon_logo.svg-image.png" alt=""></div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl bran"><img src="Images/brand/Pringles-logo-old.svg-image.png" alt=""></div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl bran"><img src="Images/brand/Rectangle 199.png" alt=""></div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl bran"><img src="Images/brand/puck-logo-outline-image.png" alt=""></div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl bran"><img src="Images/brand/Tide-Logo-1966-1996-image.png" alt=""></div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl bran"><img src="Images/brand/Rectangle 203.png" alt=""></div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl bran"><img src="Images/bavaria/Rectangle 204.png" alt=""></div>
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+
 
 
     </div>
@@ -660,462 +1146,9 @@ include('layouts/Header.php');
 
 
 
-<div class=" products sales">
-    <a href="#"> <img class="img-fluid" src="Images/more.png" alt="عرض المزيد"> </a>
-    <h4 class="titleSlide right">منتجات مميزة </h4>
 
-    <div class="fruits">
 
-        <div>
-            <div class=" prod">
 
-                <div class=" images ">
-                    <img src="Images/special products/te.png" alt="">
-                    <div class="heads">
-
-
-                        <p style="float: left"><i class="fa fa-heart"></i></p>
-
-                    </div>
-
-                </div>
-
-                <div class="details">
-                    <h5 class="p-price">4.00 <img src="Images/sh.png" alt=""> </h5>
-
-                    <p> تين بلدي 1 كيلو </p>
-
-                    <div class="quantity">
-
-
-
-                        <div class="input-group ">
-                            <div class="plus-minus">
-
-                                <button class="form-control click   minus"> <span>-</span> </button>
-                                <button class="form-control click   number"><span>1</span></button>
-                                <button class="form-control click   plus"><span>+</span></button>
-                            </div>
-                            <div class="sure-add">
-                                <button class="form-control addcart">
-                                    <span class="material-symbols-outlined">
-                                        shopping_basket
-                                    </span>
-                                    اضافة للسلة </button>
-                            </div>
-
-
-
-
-                        </div>
-
-
-                    </div>
-
-                </div>
-
-
-            </div>
-        </div>
-
-        <div>
-            <div class=" prod">
-
-                <div class=" images ">
-                    <img src="Images/special products/or.png" alt="">
-                    <div class="heads">
-
-
-                        <p style="float: left"><i class="fa fa-heart"></i></p>
-
-                    </div>
-
-                </div>
-
-                <div class="details">
-                    <h5 class="p-price">6.00 <img src="Images/sh.png" alt=""> </h5>
-
-                    <p>كلمنتينا 500g</p>
-                    <div class="quantity">
-
-
-
-                        <div class="input-group ">
-                            <div class="plus-minus">
-
-                                <button class="form-control click   minus"> <span>-</span> </button>
-                                <button class="form-control click   number"><span>1</span></button>
-                                <button class="form-control click   plus"><span>+</span></button>
-                            </div>
-                            <div class="sure-add">
-                                <button class="form-control addcart">
-                                    <span class="material-symbols-outlined">
-                                        shopping_basket
-                                    </span>
-                                    اضافة للسلة </button>
-                            </div>
-
-
-
-
-                        </div>
-
-
-
-                    </div>
-
-                </div>
-
-
-            </div>
-        </div>
-
-
-        <div>
-            <div class=" prod">
-
-                <div class=" images ">
-                    <img src="Images/special products/skn.png" alt="">
-                    <div class="heads">
-
-
-                        <p style="float: left"><i class="fa fa-heart"></i></p>
-
-                    </div>
-
-                </div>
-
-                <div class="details">
-                    <h5 class="p-price">1.00 <img src="Images/sh.png" alt=""> </h5>
-
-                    <p> اسكدنيا 1 كيلو </p>
-
-                    <div class="quantity">
-
-
-                        <div class="input-group ">
-                            <div class="plus-minus">
-
-                                <button class="form-control click   minus"> <span>-</span> </button>
-                                <button class="form-control click   number"><span>1</span></button>
-                                <button class="form-control click   plus"><span>+</span></button>
-                            </div>
-                            <div class="sure-add">
-                                <button class="form-control addcart">
-                                    <span class="material-symbols-outlined">
-                                        shopping_basket
-                                    </span>
-                                    اضافة للسلة </button>
-                            </div>
-
-
-
-
-                        </div>
-
-
-
-                    </div>
-
-                </div>
-
-
-            </div>
-        </div>
-
-
-        <div>
-            <div class=" prod">
-
-                <div class=" images ">
-                    <img src="Images/special products/me.png" alt="">
-                    <div class="heads">
-
-
-                        <p style="float: left"><i class="fa fa-heart"></i></p>
-
-                    </div>
-
-                </div>
-
-                <div class="details">
-                    <h5 class="p-price">8.00 <img src="Images/sh.png" alt=""> </h5>
-
-                    <p> بطيخ تقريبي الوزن 3 كيلو</p>
-
-                    <div class="quantity">
-
-
-
-                        <div class="input-group ">
-                            <div class="plus-minus">
-
-                                <button class="form-control click   minus"> <span>-</span> </button>
-                                <button class="form-control click   number"><span>1</span></button>
-                                <button class="form-control click   plus"><span>+</span></button>
-                            </div>
-                            <div class="sure-add">
-                                <button class="form-control addcart">
-                                    <span class="material-symbols-outlined">
-                                        shopping_basket
-                                    </span>
-                                    اضافة للسلة </button>
-                            </div>
-
-
-
-
-                        </div>
-
-
-
-                    </div>
-
-                </div>
-
-
-            </div>
-        </div>
-
-        <div>
-            <div class=" prod">
-
-                <div class=" images ">
-                    <img src="Images/special products/or.png" alt="">
-                    <div class="heads">
-
-
-                        <p style="float: left"><i class="fa fa-heart"></i></p>
-
-                    </div>
-
-                </div>
-
-                <div class="details">
-                    <h5 class="p-price">3.00 <img src="Images/sh.png" alt=""> </h5>
-
-                    <p> مانجا مايا 500جم </p>
-                    <div class="quantity">
-
-
-
-                        <div class="input-group ">
-                            <div class="plus-minus">
-
-                                <button class="form-control click   minus"> <span>-</span> </button>
-                                <button class="form-control click   number"><span>1</span></button>
-                                <button class="form-control click   plus"><span>+</span></button>
-                            </div>
-                            <div class="sure-add">
-                                <button class="form-control addcart">
-                                    <span class="material-symbols-outlined">
-                                        shopping_basket
-                                    </span>
-                                    اضافة للسلة </button>
-                            </div>
-
-
-
-
-                        </div>
-
-
-
-                    </div>
-
-                </div>
-
-
-            </div>
-        </div>
-
-
-        <div>
-            <div class=" prod">
-
-                <div class=" images ">
-                    <img src="Images/special products/or.png" alt="">
-                    <div class="heads">
-
-
-                        <p style="float: left"> <span class="material-symbols-outlined">
-                                shopping_basket
-                            </span>
-                            </i></p>
-
-                    </div>
-
-                </div>
-
-                <div class="details">
-                    <h5 class="p-price">6.00 <img src="Images/sh.png" alt=""> </h5>
-
-                    <p>كلمنتينا 500g</p>
-                    <div class="quantity">
-
-
-
-                        <div class="input-group ">
-                            <div class="plus-minus">
-
-                                <button class="form-control click   minus"> <span>-</span> </button>
-                                <button class="form-control click   number"><span>1</span></button>
-                                <button class="form-control click   plus"><span>+</span></button>
-                            </div>
-                            <div class="sure-add">
-                                <button class="form-control addcart">
-                                    <span class="material-symbols-outlined">
-                                        shopping_basket
-                                    </span>
-
-                                    اضافة للسلة </button>
-                            </div>
-
-
-
-
-                        </div>
-
-
-
-                    </div>
-
-                </div>
-
-
-            </div>
-
-
-
-
-
-
-        </div>
-
-
-    </div>
-</div>
-
-
-
-
-<div class=" products sales  groups">
-    <a href="#"> <img class="img-fluid" src="Images/more.png" alt="عرض المزيد"> </a>
-    <h4 class="titleSlide right"> تسوق حسب المطلوب </h4>
-
-    <div class="row">
-        <div class="col col-sm-4   col-lg-3 col-xl-2 items">
-
-            <div class="logos" style="background-color:#FDF0EA ;">
-                <img src="Images/svg/Group 402.png" alt="">
-
-            </div>
-
-            <h6>أطعمة طازجة</h6>
-        </div>
-
-
-        <div class="col col-sm-4   col-lg-3 col-xl-2 items">
-
-            <div class="logos" style="background-color:#ECFFEC ;">
-                <img src="Images/svg/Group 404.png" alt="">
-
-            </div>
-
-            <h6> خضروات وفواكه</h6>
-        </div>
-
-
-        <div class="col col-sm-4   col-lg-3 col-xl-2 items">
-
-            <div class="logos" style="background-color:#FFFCEB ;">
-                <img src="Images/svg/Group 401.png" alt="">
-
-            </div>
-
-            <h6> المشروبات</h6>
-        </div>
-
-
-        <div class="col col-sm-4   col-lg-3 col-xl-2 items">
-
-            <div class="logos" style="background-color:#FFF3EB ;">
-                <img src="Images/svg/Group 400.png" alt="">
-
-            </div>
-
-            <h6> منتجات الالبان</h6>
-        </div>
-
-
-        <div class="col col-sm-4   col-lg-3 col-xl-2 items">
-
-            <div class="logos" style="background-color:#FBFFEE ;">
-                <img src="Images/svg/Group 426.png" alt="">
-
-            </div>
-
-            <h6> منتجات غذائية</h6>
-        </div>
-
-
-
-        <div class="col col-sm-4   col-lg-3 col-xl-2 items">
-
-            <div class="logos" style="background-color:#DB242C ;">
-
-                <h6 class="more"> <a href="#">عرض المزيد</a> </h6>
-            </div>
-
-        </div>
-
-
-
-
-    </div>
-</div>
-
-
-
-
-
-
-
-<div class=" products sales  brandss">
-    <a href="#"> <img class="img-fluid" src="Images/more.png" alt="عرض المزيد"> </a>
-    <h4 class="titleSlide right"> أفضل الماركات </h4>
-
-    <div class="brands row">
-        <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl bran"><img src="Images/brand/2560px-Amazon_logo.svg-image.png" alt=""></div>
-        <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl bran"><img src="Images/brand/Pringles-logo-old.svg-image.png" alt=""></div>
-        <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl bran"><img src="Images/brand/Rectangle 199.png" alt=""></div>
-        <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl bran"><img src="Images/brand/puck-logo-outline-image.png" alt=""></div>
-        <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl bran"><img src="Images/brand/Tide-Logo-1966-1996-image.png" alt=""></div>
-        <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl bran"><img src="Images/brand/Rectangle 203.png" alt=""></div>
-        <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl bran"><img src="Images/bavaria/Rectangle 204.png" alt=""></div>
-
-
-
-
-
-
-
-    </div>
-
-
-
-
-
-
-</div>
-
-</div>
-
-
-
-
-
-</div>
 
 
 
