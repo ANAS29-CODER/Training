@@ -10,9 +10,21 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 
+<!--
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/placeholders/4.0.1/placeholders.min.js">
+
+ <link rel="stylesheet" href="https://unpkg.com/placeholder-loading/dist/css/placeholder-loading.min.css">
+
+-->
+
+
+
+
+
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
   <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css" />
-  <link rel="stylesheet" href="assets/css/new.css">
+  <link rel="stylesheet" href="assets/css/last.css">
+  <link rel="stylesheet" href="assets/css/placeholder.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -28,7 +40,7 @@
       <div class="top">
 
         <div class="topf">
-          <img src="Images/Rectangle 1.png" alt="">
+          <a href="./main.php"><img src="Images/Rectangle 1.png" alt=""></a>
         </div>
 
         <div class="tops">
@@ -68,7 +80,7 @@
 
 
         <div class="topf vv">
-          <a href="#"><i class='fas fa-user'></i>
+          <a href="./login.php"><i class='fas fa-user'></i>
             <span class="topdesc">تسجيل الدخول</span></a>
           </a>
         </div>
@@ -113,36 +125,36 @@
                 <button class="close-ul" style="display: none;">x</button>
 
                 <li class="nav-item active">
-                  <a class="nav-link" href="#"> الرئيسية <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="./main.php"> الرئيسية <span class="sr-only">(current)</span></a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="#"> المتجر</a>
+                  <a class="nav-link" href="./main.php"> المتجر</a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="#"> العروض </a>
+                  <a class="nav-link" href="./personalpage.php"> الصفحة الشخصية </a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="#"> منتجات مميزة</a>
-                </li>
-
-
-                <li class="nav-item">
-                  <a class="nav-link" href="#"> مواد غذائية</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"> مواد تنظيف</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link" href="#">حول الشركة </a>
+                  <a class="nav-link" href="./products.php"> منتجات مميزة</a>
                 </li>
 
 
                 <li class="nav-item">
-                  <a class="nav-link" href="#">اتصل بنا</a>
+                  <a class="nav-link" href="./recipes.php"> مواد غذائية</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./special-recipe.php"> وصفات</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="./services.php">حول الشركة </a>
+                </li>
+
+
+                <li class="nav-item">
+                  <a class="nav-link" href="./callUs.php">اتصل بنا</a>
                 </li>
               </ul>
 

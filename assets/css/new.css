@@ -822,7 +822,7 @@ header .down .navbar-nav .nav-item {
     max-height: 419px;
     width: 260px;
     transition: border .1s;
-    
+
 
 }
 
@@ -942,6 +942,15 @@ h5 .prev-price {
 .click:hover {
     background-color: #eee;
     transition: background-color .5s;
+}
+
+.click:active {
+    border: #000000;
+}
+
+.plus-minus button:focus {
+
+    box-shadow: none !important;
 }
 
 .addcart {
@@ -1163,8 +1172,9 @@ h5 .prev-price {
 
 .footer {
     width: 100%;
-    background-color: #2A2A2A;
+    background-color: #121111;
     color: white;
+    height: 510px;
 
 }
 
@@ -1232,15 +1242,12 @@ h5 .prev-price {
     }
 }
 
-.desc {
-    max-width: 217px;
-}
 
 .footer .row div p {
 
-    line-height: 30px;
-    margin-bottom: 17px;
+    line-height: 11px;
     width: max-content;
+    height: 21px;
 
 
 }
@@ -1286,7 +1293,7 @@ h5 .prev-price {
 .footer button {
 
 
-    border-radius: 9px;
+    border-radius: 2px;
     padding: 10px;
     max-width: 73px;
     max-height: 44px;
@@ -1327,8 +1334,17 @@ h5 .prev-price {
     justify-content: space-between;
 }
 
+.polices p {
+    margin-bottom: 0px;
+}
+
 .polices>div {
     padding: 13px 2px;
+    margin: auto 0px;
+}
+
+.poli {
+    margin: auto 0px;
 }
 
 .poli a {
@@ -1607,7 +1623,9 @@ h5 .prev-price {
 }
 
 @media (min-width:1200px) and (max-width:1400px) {
-    .bav .sales .slick-next {
+
+    .bav .sales .slick-next,
+    .fruits .sales .slick-next {
         right: auto;
         left: 30px !important;
     }
@@ -3108,7 +3126,7 @@ h5 .prev-price {
 /***************/
 
 
-.fruits .slick-next,
+
 .same-product .sales .slick-next {
     right: auto;
     left: -14px !important;
@@ -4543,7 +4561,7 @@ h5 .prev-price {
     .sales .slick-initialized .slick-slide {
         display: block;
         width: 275px !important;
-margin: 0%;
+        margin: 0%;
 
     }
 }
@@ -5154,7 +5172,8 @@ header .down .navbar-nav .nav-item:first-of-type {
 
 
 
-.ds {
+.ds,
+.fruits {
     overflow: hidden;
     width: 100%;
 
@@ -5169,8 +5188,8 @@ header .down .navbar-nav .nav-item:first-of-type {
 .sales .slick-track {
     display: flex;
     align-content: space-around !important;
-    justify-content: space-between !important;
-    /*margin: 0% 1%;*/
+    /*    justify-content: space-between !important;
+    margin: 0% 1%;*/
 }
 
 
@@ -5178,10 +5197,11 @@ header .down .navbar-nav .nav-item:first-of-type {
 .sliders {
     overflow: hidden;
 }
+
 @media (min-width:1499px) {
 
     .sales .slick-initialized .slick-slide {
-      
+
         margin-left: .5%;
 
     }
@@ -5194,7 +5214,7 @@ header .down .navbar-nav .nav-item:first-of-type {
         display: block;
 
         width: 264px !important;
-       
+
 
     }
 }
@@ -5518,8 +5538,7 @@ header .down .navbar-nav .nav-item:first-of-type {
 }
 
 
-.arrows
-{
+.arrows {
     margin: 0%;
     margin-top: 0% !important;
     position: absolute;
@@ -5533,34 +5552,44 @@ header .down .navbar-nav .nav-item:first-of-type {
     height: 40px;
     font-size: 15px;
     padding: 0%;
-    
+
 }
 
-.arrow-next{
+.arrow-next {
     right: -.4%;
 }
-.arrow-prev{
+
+.arrow-next2 {
+    right: 0.2%;
+}
+
+.arrow-prev,
+.arrow-prev2 {
     left: 0%;
 }
-.arrows .material-symbols-outlined{
+
+.arrows .material-symbols-outlined {
     width: 15px;
     height: 15px;
     font-size: 15px !important;
-    
+
     margin-top: 7px;
 }
 
-.arrow-prev span
-{
+.arrow-prev span,
+.arrow-prev2 span {
     padding-left: 3.3px;
 }
 
-@media only screen and (min-width:1401px) and (max-width:1500px){
+@media only screen and (min-width:1401px) and (max-width:1500px) {
 
-    .arrow-prev {
+    .arrow-prev,
+    .arrow-prev2 {
         left: -1.6%;
     }
-    .arrow-next {
+
+    .arrow-next,
+    .arrow-next2 {
         right: -.9% !important;
     }
 
@@ -5568,11 +5597,12 @@ header .down .navbar-nav .nav-item:first-of-type {
 }
 
 
-@media only screen and (min-width:1200px) and (max-width:1400px){
+@media only screen and (min-width:1200px) and (max-width:1400px) {
 
     .arrow-prev {
         left: -1%;
     }
+
     .arrow-next {
         right: .5% !important;
     }
@@ -5580,14 +5610,51 @@ header .down .navbar-nav .nav-item:first-of-type {
 
 }
 
-@media only screen and (min-width:992px) and (max-width:1200px){
+@media only screen and (min-width:992px) and (max-width:1200px) {
 
     .arrow-prev {
         left: -1.5%;
     }
+
     .arrow-next {
         right: -.6% !important;
     }
 
 
 }
+
+.desc {
+    max-width: 217px;
+    line-height: unset !important;
+    margin-bottom: 37px;
+}
+
+
+.prod {
+    margin: 0px auto !important;
+}
+
+
+.test .slick-track {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+}
+
+/*********************************
+**************************************
+**************************************
+**************************************
+****************************************************************************
+**************************************
+**************************************
+**************************************
+**************************************
+**************************************
+**************************************
+**************************************
+**************************************
+**************************************
+**************************************/
+
+

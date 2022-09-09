@@ -3,7 +3,6 @@
 include('layouts/Header.php');
 
 
-
 ?>
 
 
@@ -679,11 +678,13 @@ include('layouts/Header.php');
             <a href="#"> <img class="img-fluid" src="Images/more.png" alt="عرض المزيد"> </a>
             <h4 class="titleSlide right">منتجات مميزة </h4>
 
-            <button class="arrow-next arrows">
+            <button class="arrow-next2 arrows">
                 <span class="material-symbols-outlined">
                     arrow_forward_ios
                 </span>
             </button>
+           
+
 
             <div class="fruits">
 
@@ -714,7 +715,7 @@ include('layouts/Header.php');
                                 <div class="plus-minus">
 
                                     <button class="form-control click   minus"> <span>-</span> </button>
-                                    <button class="form-control click   number"><span>1</span></button>
+                                    <button class="form-control click   number"><span id="number">1</span></button>
                                     <button class="form-control click   plus"><span>+</span></button>
                                 </div>
                                 <div class="sure-add">
@@ -1012,11 +1013,14 @@ include('layouts/Header.php');
 
             </div>
 
-            <button class="arrow-prev arrows">
+
+
+            <button class="arrow-prev2 arrows">
                 <span class="material-symbols-outlined">
                     arrow_back_ios
                 </span>
             </button>
+
 
 
         </div>

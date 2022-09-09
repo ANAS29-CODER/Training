@@ -1,7 +1,7 @@
 
 /* slider main  */
 
-
+/*
 $.global = new Object();
 
 $.global.item = 1;
@@ -53,6 +53,7 @@ function DoIt(target) {
     $('#count').html($.global.item + 1);
 
 }
+*/
 
 
 
@@ -106,8 +107,8 @@ $(document).ready(function () {
     $('.ds').slick({
 
         rtl: true,
-        prevArrow:  '.arrow-prev',
-        nextArrow:  '.arrow-next',
+        prevArrow: '.arrow-prev',
+        nextArrow: '.arrow-next',
         slidesToShow: 5,
         slidesToScroll: 1,
         infinite: false,
@@ -115,111 +116,15 @@ $(document).ready(function () {
         responsive: [
             {
                 breakpoint: 1500,
-                settings: {
-                    slidesToShow:4,
-                    slidesToScroll: 1,
-                    infinite: false,
-                    dots: false,
-                }
-            },
-            {
-                breakpoint: 992,
-                settings: {
-                    slidesToShow:3,
-                    slidesToScroll: 1,
-
-                }
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1
-                }
-            },
-            {
-             
-            }
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
-        ]
-
-
-    });
-
-
-    $('.fruits').slick({
-        rtl: true,
-     
-        slidesToShow: 5,
-        slidesToScroll: 1,
-        infinite: false,
-        dots: false,
-        responsive: [
-            {
-                breakpoint: 1500,
-                settings: {
-                    slidesToShow:4,
-                    slidesToScroll: 1,
-                    infinite: false,
-                    dots: false,
-                }
-            },
-            {
-                breakpoint: 992,
-                settings: {
-                    slidesToShow:3,
-                    slidesToScroll: 1,
-
-                }
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1
-                }
-            },
-            {
-             
-            }
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
-        ]
-
-
-    });
-});
-
-
-
-
-
-
-/*
-
-$(document).ready(function () {
-
-    $('.fruits').slick({
-        rtl: true,
-        slidesToShow: 5,
-        slidesToScroll: 5,
-        infinite: false,
-        dots: false,
-        responsive: [
-            {
-                breakpoint: 1400,
                 settings: {
                     slidesToShow: 4,
                     slidesToScroll: 1,
                     infinite: false,
-                    dots: false
+                    dots: false,
                 }
             },
             {
-                breakpoint: 1200,
+                breakpoint: 992,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1,
@@ -227,18 +132,14 @@ $(document).ready(function () {
                 }
             },
             {
-                breakpoint: 800,
+                breakpoint: 767,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1
                 }
             },
             {
-                breakpoint: 500,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
+
             }
             // You can unslick at a given breakpoint now by adding:
             // settings: "unslick"
@@ -247,9 +148,105 @@ $(document).ready(function () {
 
 
     });
+
+
+    $('.fruits').slick({
+        rtl: true,
+        prevArrow: '.arrow-prev2',
+        nextArrow: '.arrow-next2',
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        infinite: false,
+        dots: false,
+        responsive: [
+            {
+                breakpoint: 1500,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    infinite: false,
+                    dots: false,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
+
+
+    });
+
+    $('.test').slick({
+
+        rtl: true,
+        prevArrow: '.arrow-prev',
+        nextArrow: '.arrow-next',
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        infinite: false,
+        dots: false,
+        responsive: [
+            {
+                breakpoint: 1500,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    infinite: false,
+                    dots: false,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
+
+
+    });
+
 });
 
-*/
+
+
+
+
+
+
 
 /*
 
@@ -292,32 +289,32 @@ $('.addcart').on("click", function () {
     console.log('asd');
     $('.opacity-all').css('display', 'unset');
     $('.add-pro-to-cart').css('display', 'unset');
-  
+
 
 });
 
-$('.close-pro').on("click", function(){
+$('.close-pro').on("click", function () {
     $('.add-pro-to-cart').css('display', 'none');
     $('.opacity-all').css('display', 'none');
 
 });
 
-var width=window.innerWidth;
+var width = window.innerWidth;
 
-$('.close-ul').click(function(){
+$('.close-ul').click(function () {
     $('.navbar-collapse').removeClass('show')
-    $('.navbar-collapse').css('animation','closeul .3s ease-in');
+    $('.navbar-collapse').css('animation', 'closeul .3s ease-in');
 
 
-   
+
 });
 
 
-$('.navbar-toggler').click(function(){
+$('.navbar-toggler').click(function () {
     console.log('toggler');
-   
 
-    if(width=='991'){
+
+    if (width == '991') {
         $('.navbar-collapse').addClass('sticky-top');
 
 
@@ -327,8 +324,93 @@ $('.navbar-toggler').click(function(){
 
 
 
-$('.arrows').click(function(){
+$('.arrows').click(function () {
 
-    $(this).css('outline','none');
+    $(this).css('outline', 'none');
 
 });
+
+
+$('.plus-minus button').click(function () {
+
+    $(this).css('outline', 'none');
+    $(this).css('border', 'none');
+
+});
+
+
+$('.plus-minus plus').click(function () {
+
+    let vd = document.getElementsByClassName('number');
+
+
+
+});
+/*
+function my_code(){
+  
+    console.log('its loading');
+    }
+    
+    window.onload=my_code();*/
+    $(document).ready(function() {
+        console.log($.ajax);
+      });
+
+
+$(document).ready(function () {
+
+    $('#sas').html(make_skeleton());
+
+
+    /*setTimeout(function(){
+        
+        load_content(5);
+      
+
+    },200);*/
+
+
+    function make_skeleton() {
+
+
+        var output = '<div class="ph-item test">';
+        for (var i = 1; i <= 5; i++) {
+
+            output += '<div class="ph-col-12 prod">';
+            output += '<div class="ph-picture "></div>';
+            output += '<div class="ph-row">';
+            output += '<div class="ph-col-6 ph-price"></div>';
+            output += '<div class="ph-col-8 ph-description"></div>';
+            output += '<div class="ph-col-10 ph-buttons"></div>';
+            output += '</div>';
+            output += '</div>';
+
+        };
+        output += '</div>';
+
+        return output;
+
+    }
+
+
+/*
+    function load_content(time){
+
+        $.ajax({
+
+            url:"././sas.php",
+            methode:"POST",
+            data:time,
+            success:function (data)
+            {
+                $('#sas').html(data);
+            }
+        });
+    }
+    */
+
+
+});
+
+
