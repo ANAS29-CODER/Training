@@ -40,7 +40,7 @@
       <div class="top">
 
         <div class="topf">
-          <a href="./main.php"><img src="Images/Rectangle 1.png" alt=""></a>
+          <a href="./index.php"><img src="Images/Rectangle 1.png" alt=""></a>
         </div>
 
         <div class="tops">
@@ -125,11 +125,11 @@
                 <button class="close-ul" style="display: none;">x</button>
 
                 <li class="nav-item active">
-                  <a class="nav-link" href="./main.php"> الرئيسية <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="./index.php"> الرئيسية <span class="sr-only">(current)</span></a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="./main.php"> المتجر</a>
+                  <a class="nav-link" href="./index.php"> المتجر</a>
                 </li>
 
                 <li class="nav-item">
